@@ -1,0 +1,49 @@
+# generated using pymatgen
+data_Mg0.2Nb3.8N3.68O0.32
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.41900000
+_cell_length_b   4.41900000
+_cell_length_c   4.41900000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg0.2Nb3.8N3.68O0.32
+_chemical_formula_sum   'Mg0.2 Nb3.8 N3.68 O0.32'
+_cell_volume   86.29229206
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Mg2+  2.0
+  Nb2.95+  2.95
+  N3-  -3.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg2+  Mg0  1  0.00000000  0.00000000  0.00000000  0.05
+  Nb2.95+  Nb1  1  0.00000000  0.00000000  0.00000000  0.95
+  Mg2+  Mg2  1  0.00000000  0.50000000  0.50000000  0.05
+  Nb2.95+  Nb3  1  0.00000000  0.50000000  0.50000000  0.95
+  Mg2+  Mg4  1  0.50000000  0.00000000  0.50000000  0.05
+  Nb2.95+  Nb5  1  0.50000000  0.00000000  0.50000000  0.95
+  Mg2+  Mg6  1  0.50000000  0.50000000  0.00000000  0.05
+  Nb2.95+  Nb7  1  0.50000000  0.50000000  0.00000000  0.95
+  N3-  N8  1  0.50000000  0.50000000  0.50000000  0.92
+  O2-  O9  1  0.50000000  0.50000000  0.50000000  0.08
+  N3-  N10  1  0.50000000  0.00000000  0.00000000  0.92
+  O2-  O11  1  0.50000000  0.00000000  0.00000000  0.08
+  N3-  N12  1  0.00000000  0.50000000  0.00000000  0.92
+  O2-  O13  1  0.00000000  0.50000000  0.00000000  0.08
+  N3-  N14  1  0.00000000  0.00000000  0.50000000  0.92
+  O2-  O15  1  0.00000000  0.00000000  0.50000000  0.08

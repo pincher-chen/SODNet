@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_ScTc2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.22400000
+_cell_length_b   5.22400000
+_cell_length_c   8.57000000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScTc2
+_chemical_formula_sum   'Sc4 Tc8'
+_cell_volume   202.54325736
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Sc0+  0.0
+  Tc0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc0+  Sc0  1  0.33333333  0.66666667  0.43800000  1.0
+  Sc0+  Sc1  1  0.66666667  0.33333333  0.56200000  1.0
+  Sc0+  Sc2  1  0.66666667  0.33333333  0.93800000  1.0
+  Sc0+  Sc3  1  0.33333333  0.66666667  0.06200000  1.0
+  Tc0+  Tc4  1  0.00000000  0.00000000  0.50000000  1.0
+  Tc0+  Tc5  1  0.00000000  0.00000000  0.00000000  1.0
+  Tc0+  Tc6  1  0.82900000  0.17100000  0.25000000  1.0
+  Tc0+  Tc7  1  0.82900000  0.65800000  0.25000000  1.0
+  Tc0+  Tc8  1  0.34200000  0.17100000  0.25000000  1.0
+  Tc0+  Tc9  1  0.17100000  0.82900000  0.75000000  1.0
+  Tc0+  Tc10  1  0.17100000  0.34200000  0.75000000  1.0
+  Tc0+  Tc11  1  0.65800000  0.82900000  0.75000000  1.0

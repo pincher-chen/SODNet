@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Bi2Se3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.15000000
+_cell_length_b   4.15000000
+_cell_length_c   28.55000000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Bi2Se3
+_chemical_formula_sum   'Bi6 Se9'
+_cell_volume   425.82674785
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Bi3+  3.0
+  Se2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi3+  Bi0  1  0.00000000  0.00000000  0.60200000  1.0
+  Bi3+  Bi1  1  0.00000000  0.00000000  0.39800000  1.0
+  Bi3+  Bi2  1  0.66666667  0.33333333  0.93533333  1.0
+  Bi3+  Bi3  1  0.66666667  0.33333333  0.73133333  1.0
+  Bi3+  Bi4  1  0.33333333  0.66666667  0.26866667  1.0
+  Bi3+  Bi5  1  0.33333333  0.66666667  0.06466667  1.0
+  Se2-  Se6  1  0.00000000  0.00000000  0.00000000  1.0
+  Se2-  Se7  1  0.66666667  0.33333333  0.33333333  1.0
+  Se2-  Se8  1  0.33333333  0.66666667  0.66666667  1.0
+  Se2-  Se9  1  0.00000000  0.00000000  0.20800000  1.0
+  Se2-  Se10  1  0.00000000  0.00000000  0.79200000  1.0
+  Se2-  Se11  1  0.66666667  0.33333333  0.54133333  1.0
+  Se2-  Se12  1  0.66666667  0.33333333  0.12533333  1.0
+  Se2-  Se13  1  0.33333333  0.66666667  0.87466667  1.0
+  Se2-  Se14  1  0.33333333  0.66666667  0.45866667  1.0

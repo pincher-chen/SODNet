@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Fe2.08Te1.9Se0.1
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.82160000
+_cell_length_b   3.78930000
+_cell_length_c   6.23310000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   89.17000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe2.08Te1.9Se0.1
+_chemical_formula_sum   'Fe2.08 Te1.9 Se0.1'
+_cell_volume   90.25322772
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Fe1.92+  1.92
+  Te2-  -2.0
+  Se2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe1.92+  Fe0  1  0.75910000  0.25000000  0.00300000  1.0
+  Fe1.92+  Fe1  1  0.24090000  0.75000000  0.99700000  1.0
+  Fe1.92+  Fe2  1  0.24600000  0.25000000  0.68300000  0.04
+  Fe1.92+  Fe3  1  0.75400000  0.75000000  0.31700000  0.04
+  Te2-  Te4  1  0.25710000  0.25000000  0.27510000  0.95
+  Se2-  Se5  1  0.25710000  0.25000000  0.27510000  0.05
+  Te2-  Te6  1  0.74290000  0.75000000  0.72490000  0.95
+  Se2-  Se7  1  0.74290000  0.75000000  0.72490000  0.05

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_SrCeBi2(S2F)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.06500000
+_cell_length_b   4.06500000
+_cell_length_c   13.35000000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCeBi2(S2F)2
+_chemical_formula_sum   'Sr1 Ce1 Bi2 S4 F2'
+_cell_volume   220.59840375
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Sr2+  2.0
+  Ce2+  2.0
+  Bi3+  3.0
+  S2-  -2.0
+  F-  -1.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr2+  Sr0  1  0.75000000  0.75000000  0.89000000  0.5
+  Ce2+  Ce1  1  0.75000000  0.75000000  0.89000000  0.5
+  Sr2+  Sr2  1  0.25000000  0.25000000  0.11000000  0.5
+  Ce2+  Ce3  1  0.25000000  0.25000000  0.11000000  0.5
+  Bi3+  Bi4  1  0.75000000  0.75000000  0.37700000  1.0
+  Bi3+  Bi5  1  0.25000000  0.25000000  0.62300000  1.0
+  S2-  S6  1  0.75000000  0.75000000  0.62100000  1.0
+  S2-  S7  1  0.25000000  0.25000000  0.37900000  1.0
+  S2-  S8  1  0.75000000  0.75000000  0.19100000  1.0
+  S2-  S9  1  0.25000000  0.25000000  0.80900000  1.0
+  F-  F10  1  0.75000000  0.25000000  0.00000000  1.0
+  F-  F11  1  0.25000000  0.75000000  0.00000000  1.0

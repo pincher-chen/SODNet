@@ -1,0 +1,61 @@
+data_3D\Atomistic
+_audit_creation_date              2022-02-02
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'C2/M'
+_symmetry_Int_Tables_number       12
+_symmetry_cell_setting            monoclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -x,y,-z
+  -x,-y,-z
+  x,-y,z
+  x+1/2,y+1/2,z
+  -x+1/2,y+1/2,-z
+  -x+1/2,-y+1/2,-z
+  x+1/2,-y+1/2,z
+_cell_length_a                    10.0920
+_cell_length_b                    3.1860
+_cell_length_c                    5.5500
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  156.6800
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+H1     H     0.23000  -0.00000   0.89700   0.00000  Uiso   1.00
+Te2    Te    0.73800  -0.00000   0.71400   0.00000  Uiso   1.00
+H3     H     0.00000   0.00000   0.50000   0.00000  Uiso   1.00
+H4     H     0.16000   0.50000   0.25700   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+H1     Te2     1.930   5_445 S
+H1     Te2     1.930   5_455 S
+H1     Te2     1.867   2_657 S
+Te2    H1      1.930   5     S
+Te2    H1      1.930   5_545 S
+Te2    H1      1.867   2_657 S
+Te2    Te2     2.786   2_656 S
+Te2    Te2     2.714   5_556 S
+Te2    Te2     2.714   5_546 S
+Te2    Te2     2.714   5_444 S
+Te2    Te2     2.714   5_454 S
+Te2    Te2     3.049   6_656 S
+Te2    Te2     3.049   6_646 S
+Te2    H4      1.840   5_545 S
+Te2    Te2     2.685   2_757 S
+Te2    H4      1.822   2_656 S
+Te2    H4      1.822   2_646 S
+H4     Te2     1.840   5_455 S
+H4     Te2     1.822   2_656 S
+H4     Te2     1.822   2_666 S

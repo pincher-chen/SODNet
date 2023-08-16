@@ -1,0 +1,57 @@
+# generated using pymatgen
+data_KBa3(FeAs)8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.56360000
+_cell_length_b   5.54760000
+_cell_length_c   13.10270000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KBa3(FeAs)8
+_chemical_formula_sum   'K1 Ba3 Fe8 As8'
+_cell_volume   404.40995291
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  K+  1.0
+  Ba2+  2.0
+  Fe2.13+  2.13
+  As3-  -3.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K+  K0  1  0.00000000  0.00000000  0.00000000  0.25
+  Ba2+  Ba1  1  0.00000000  0.00000000  0.00000000  0.75
+  K+  K2  1  0.00000000  0.50000000  0.50000000  0.25
+  Ba2+  Ba3  1  0.00000000  0.50000000  0.50000000  0.75
+  K+  K4  1  0.50000000  0.00000000  0.50000000  0.25
+  Ba2+  Ba5  1  0.50000000  0.00000000  0.50000000  0.75
+  K+  K6  1  0.50000000  0.50000000  0.00000000  0.25
+  Ba2+  Ba7  1  0.50000000  0.50000000  0.00000000  0.75
+  Fe2.13+  Fe8  1  0.25000000  0.25000000  0.75000000  1.0
+  Fe2.13+  Fe9  1  0.25000000  0.75000000  0.25000000  1.0
+  Fe2.13+  Fe10  1  0.75000000  0.25000000  0.25000000  1.0
+  Fe2.13+  Fe11  1  0.75000000  0.75000000  0.75000000  1.0
+  Fe2.13+  Fe12  1  0.75000000  0.75000000  0.25000000  1.0
+  Fe2.13+  Fe13  1  0.75000000  0.25000000  0.75000000  1.0
+  Fe2.13+  Fe14  1  0.25000000  0.75000000  0.75000000  1.0
+  Fe2.13+  Fe15  1  0.25000000  0.25000000  0.25000000  1.0
+  As3-  As16  1  0.00000000  0.00000000  0.64602000  1.0
+  As3-  As17  1  0.00000000  0.00000000  0.35398000  1.0
+  As3-  As18  1  0.00000000  0.50000000  0.14602000  1.0
+  As3-  As19  1  0.00000000  0.50000000  0.85398000  1.0
+  As3-  As20  1  0.50000000  0.00000000  0.14602000  1.0
+  As3-  As21  1  0.50000000  0.00000000  0.85398000  1.0
+  As3-  As22  1  0.50000000  0.50000000  0.64602000  1.0
+  As3-  As23  1  0.50000000  0.50000000  0.35398000  1.0

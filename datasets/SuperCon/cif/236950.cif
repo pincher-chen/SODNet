@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_LaGe5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.02900000
+_cell_length_b   6.30700000
+_cell_length_c   9.97800000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaGe5
+_chemical_formula_sum   'La2 Ge10'
+_cell_volume   253.54999013
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  La0+  0.0
+  Ge0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La0+  La0  1  0.00000000  0.00000000  0.00000000  1.0
+  La0+  La1  1  0.50000000  0.50000000  0.50000000  1.0
+  Ge0+  Ge2  1  0.50000000  0.29940000  0.17200000  1.0
+  Ge0+  Ge3  1  0.50000000  0.70060000  0.82800000  1.0
+  Ge0+  Ge4  1  0.50000000  0.29940000  0.82800000  1.0
+  Ge0+  Ge5  1  0.50000000  0.70060000  0.17200000  1.0
+  Ge0+  Ge6  1  0.00000000  0.79940000  0.67200000  1.0
+  Ge0+  Ge7  1  0.00000000  0.20060000  0.32800000  1.0
+  Ge0+  Ge8  1  0.00000000  0.79940000  0.32800000  1.0
+  Ge0+  Ge9  1  0.00000000  0.20060000  0.67200000  1.0
+  Ge0+  Ge10  1  0.00000000  0.50000000  0.00000000  1.0
+  Ge0+  Ge11  1  0.50000000  0.00000000  0.50000000  1.0

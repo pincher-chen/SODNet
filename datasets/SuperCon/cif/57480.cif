@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Re2Si
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.38980000
+_cell_length_b   9.60190000
+_cell_length_c   6.44440000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   94.21400000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Re2Si
+_chemical_formula_sum   'Re16 Si8'
+_cell_volume   332.61102088
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Re0+  0.0
+  Si0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Re0+  Re0  1  0.26056000  0.29786000  0.54116000  1.0
+  Re0+  Re1  1  0.73944000  0.79786000  0.95884000  1.0
+  Re0+  Re2  1  0.73944000  0.70214000  0.45884000  1.0
+  Re0+  Re3  1  0.26056000  0.20214000  0.04116000  1.0
+  Re0+  Re4  1  0.56850000  0.29497000  0.88759000  1.0
+  Re0+  Re5  1  0.43150000  0.79497000  0.61241000  1.0
+  Re0+  Re6  1  0.43150000  0.70503000  0.11241000  1.0
+  Re0+  Re7  1  0.56850000  0.20503000  0.38759000  1.0
+  Re0+  Re8  1  0.59263000  0.44740000  0.32030000  1.0
+  Re0+  Re9  1  0.40737000  0.94740000  0.17970000  1.0
+  Re0+  Re10  1  0.40737000  0.55260000  0.67970000  1.0
+  Re0+  Re11  1  0.59263000  0.05260000  0.82030000  1.0
+  Re0+  Re12  1  0.90320000  0.45801000  0.67806000  1.0
+  Re0+  Re13  1  0.09680000  0.95801000  0.82194000  1.0
+  Re0+  Re14  1  0.09680000  0.54199000  0.32194000  1.0
+  Re0+  Re15  1  0.90320000  0.04199000  0.17806000  1.0
+  Si0+  Si16  1  0.94660000  0.30220000  0.21770000  1.0
+  Si0+  Si17  1  0.05340000  0.80220000  0.28230000  1.0
+  Si0+  Si18  1  0.05340000  0.69780000  0.78230000  1.0
+  Si0+  Si19  1  0.94660000  0.19780000  0.71770000  1.0
+  Si0+  Si20  1  0.23400000  0.44900000  0.99240000  1.0
+  Si0+  Si21  1  0.76600000  0.94900000  0.50760000  1.0
+  Si0+  Si22  1  0.76600000  0.55100000  0.00760000  1.0
+  Si0+  Si23  1  0.23400000  0.05100000  0.49240000  1.0

@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Sr3.592Ca0.408V2Fe2As2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.93387000
+_cell_length_b   3.93387000
+_cell_length_c   15.66110000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr3.592Ca0.408V2Fe2As2O6
+_chemical_formula_sum   'Sr3.592 Ca0.408 V2 Fe2 As2 O6'
+_cell_volume   242.36074042
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Sr2+  2.0
+  Ca2+  2.0
+  V3+  3.0
+  Fe2+  2.0
+  As3-  -3.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr2+  Sr0  1  0.25000000  0.25000000  0.58650000  0.921
+  Ca2+  Ca1  1  0.25000000  0.25000000  0.58650000  0.079
+  Sr2+  Sr2  1  0.75000000  0.75000000  0.41350000  0.921
+  Ca2+  Ca3  1  0.75000000  0.75000000  0.41350000  0.079
+  Sr2+  Sr4  1  0.25000000  0.25000000  0.80990000  0.875
+  Ca2+  Ca5  1  0.25000000  0.25000000  0.80990000  0.125
+  Sr2+  Sr6  1  0.75000000  0.75000000  0.19010000  0.875
+  Ca2+  Ca7  1  0.75000000  0.75000000  0.19010000  0.125
+  V3+  V8  1  0.75000000  0.75000000  0.68900000  1.0
+  V3+  V9  1  0.25000000  0.25000000  0.31100000  1.0
+  Fe2+  Fe10  1  0.25000000  0.75000000  0.00000000  1.0
+  Fe2+  Fe11  1  0.75000000  0.25000000  0.00000000  1.0
+  As3-  As12  1  0.75000000  0.75000000  0.91040000  1.0
+  As3-  As13  1  0.25000000  0.25000000  0.08960000  1.0
+  O2-  O14  1  0.25000000  0.75000000  0.70770000  1.0
+  O2-  O15  1  0.75000000  0.25000000  0.70770000  1.0
+  O2-  O16  1  0.75000000  0.25000000  0.29230000  1.0
+  O2-  O17  1  0.25000000  0.75000000  0.29230000  1.0
+  O2-  O18  1  0.75000000  0.75000000  0.56980000  1.0
+  O2-  O19  1  0.25000000  0.25000000  0.43020000  1.0

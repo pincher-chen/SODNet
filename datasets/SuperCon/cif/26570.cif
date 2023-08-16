@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_ThSi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.89000000
+_cell_length_b   7.88000000
+_cell_length_c   4.15000000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ThSi
+_chemical_formula_sum   'Th4 Si4'
+_cell_volume   192.61478000
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Th0+  0.0
+  Si0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th0+  Th0  1  0.37000000  0.68000000  0.25000000  1.0
+  Th0+  Th1  1  0.13000000  0.18000000  0.25000000  1.0
+  Th0+  Th2  1  0.63000000  0.32000000  0.75000000  1.0
+  Th0+  Th3  1  0.87000000  0.82000000  0.75000000  1.0
+  Si0+  Si4  1  0.89000000  0.53000000  0.25000000  1.0
+  Si0+  Si5  1  0.61000000  0.03000000  0.25000000  1.0
+  Si0+  Si6  1  0.11000000  0.47000000  0.75000000  1.0
+  Si0+  Si7  1  0.39000000  0.97000000  0.75000000  1.0

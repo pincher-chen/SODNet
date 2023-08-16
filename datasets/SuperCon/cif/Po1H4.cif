@@ -1,0 +1,52 @@
+#======================================================================
+
+# CRYSTAL DATA
+
+#----------------------------------------------------------------------
+
+data_VESTA_phase_1
+
+
+_chemical_name_common                  '3D\Atomistic                          '
+_cell_length_a                         4.63311
+_cell_length_b                         4.66745
+_cell_length_c                         9.04672
+_cell_angle_alpha                      90
+_cell_angle_beta                       140.04013
+_cell_angle_gamma                      90
+_space_group_name_H-M_alt              'P 1'
+_space_group_IT_number                 1
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_B_iso_or_equiv
+   _atom_site_type_symbol
+   H1         1.0     0.315367      0.813392      0.918473     Biso  1.000000 H
+   H2         1.0     0.684633      0.186608      0.081527     Biso  1.000000 H
+   H3         1.0     0.684633      0.813392      0.581527     Biso  1.000000 H
+   H4         1.0     0.315367      0.186608      0.418473     Biso  1.000000 H
+   H5         1.0     0.815367      0.313392      0.918473     Biso  1.000000 H
+   H6         1.0     0.184633      0.686608      0.081527     Biso  1.000000 H
+   H7         1.0     0.184633      0.313392      0.581527     Biso  1.000000 H
+   H8         1.0     0.815367      0.686608      0.418473     Biso  1.000000 H
+   H9         1.0     0.812516      0.063401      0.083283     Biso  1.000000 H
+   H10        1.0     0.187484      0.936599      0.916717     Biso  1.000000 H
+   H11        1.0     0.187484      0.063401      0.416717     Biso  1.000000 H
+   H12        1.0     0.812516      0.936599      0.583283     Biso  1.000000 H
+   H13        1.0     0.312516      0.563401      0.083283     Biso  1.000000 H
+   H14        1.0     0.687484      0.436599      0.916717     Biso  1.000000 H
+   H15        1.0     0.687484      0.563401      0.416717     Biso  1.000000 H
+   H16        1.0     0.312516      0.436599      0.583283     Biso  1.000000 H
+   Po1        1.0     0.500000      0.125021      0.250000     Biso  1.000000 Po
+   Po2        1.0     0.500000      0.874979      0.750000     Biso  1.000000 Po
+   Po3        1.0    -0.000000      0.625021      0.250000     Biso  1.000000 Po
+   Po4        1.0    -0.000000      0.374979      0.750000     Biso  1.000000 Po

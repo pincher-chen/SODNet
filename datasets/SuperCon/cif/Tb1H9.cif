@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TbH9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.28999996
+_cell_length_b   3.28999996
+_cell_length_c   6.03900003
+_cell_angle_alpha   105.69999695
+_cell_angle_beta   105.69999695
+_cell_angle_gamma   120.30000305
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbH9
+_chemical_formula_sum   'Tb1 H9'
+_cell_volume   47.36789059
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.41707996  0.58291998  0.25000001  1
+  H  H1  1  0.09433002  0.74085998  0.44080003  1
+  H  H2  1  0.25914004  0.90567000  0.05920000  1
+  H  H3  1  0.71279002  0.35936001  0.05919000  1
+  H  H4  1  0.64064002  0.28720998  0.44081001  1
+  H  H5  1  0.71767001  0.90508995  0.06135000  1
+  H  H6  1  0.09491001  0.28232999  0.43865003  1
+  H  H7  1  0.01957000  0.18523002  0.85236000  1
+  H  H8  1  0.81477000  0.98042999  0.64763999  1
+  H  H9  1  0.75028000  0.24971999  0.25000001  1

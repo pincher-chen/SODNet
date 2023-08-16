@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_LaAlRh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.24000000
+_cell_length_b   4.25160000
+_cell_length_c   16.22400000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaAlRh
+_chemical_formula_sum   'La8 Al8 Rh8'
+_cell_volume   499.40041882
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  La0+  0.0
+  Al0+  0.0
+  Rh0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La0+  La0  1  0.51953000  0.25000000  0.22016000  1.0
+  La0+  La1  1  0.01953000  0.25000000  0.27984000  1.0
+  La0+  La2  1  0.48047000  0.75000000  0.77984000  1.0
+  La0+  La3  1  0.98047000  0.75000000  0.72016000  1.0
+  La0+  La4  1  0.65521000  0.25000000  0.44017000  1.0
+  La0+  La5  1  0.15521000  0.25000000  0.05983000  1.0
+  La0+  La6  1  0.34479000  0.75000000  0.55983000  1.0
+  La0+  La7  1  0.84479000  0.75000000  0.94017000  1.0
+  Al0+  Al8  1  0.50650000  0.25000000  0.93940000  1.0
+  Al0+  Al9  1  0.00650000  0.25000000  0.56060000  1.0
+  Al0+  Al10  1  0.49350000  0.75000000  0.06060000  1.0
+  Al0+  Al11  1  0.99350000  0.75000000  0.43940000  1.0
+  Al0+  Al12  1  0.65570000  0.25000000  0.64680000  1.0
+  Al0+  Al13  1  0.15570000  0.25000000  0.85320000  1.0
+  Al0+  Al14  1  0.34430000  0.75000000  0.35320000  1.0
+  Al0+  Al15  1  0.84430000  0.75000000  0.14680000  1.0
+  Rh0+  Rh16  1  0.71480000  0.25000000  0.07148000  1.0
+  Rh0+  Rh17  1  0.21480000  0.25000000  0.42852000  1.0
+  Rh0+  Rh18  1  0.28520000  0.75000000  0.92852000  1.0
+  Rh0+  Rh19  1  0.78520000  0.75000000  0.57148000  1.0
+  Rh0+  Rh20  1  0.77270000  0.25000000  0.81861000  1.0
+  Rh0+  Rh21  1  0.27270000  0.25000000  0.68139000  1.0
+  Rh0+  Rh22  1  0.22730000  0.75000000  0.18139000  1.0
+  Rh0+  Rh23  1  0.72730000  0.75000000  0.31861000  1.0

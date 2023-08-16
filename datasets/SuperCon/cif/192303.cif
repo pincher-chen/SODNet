@@ -1,0 +1,57 @@
+# generated using pymatgen
+data_Ba3.2Na0.8Fe8As8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.56117000
+_cell_length_b   5.53023000
+_cell_length_c   12.98378000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3.2Na0.8Fe8As8
+_chemical_formula_sum   'Ba3.2 Na0.8 Fe8 As8'
+_cell_volume   399.31030041
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ba2+  2.0
+  Na+  1.0
+  Fe2.1+  2.1
+  As3-  -3.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba2+  Ba0  1  0.00000000  0.00000000  0.00000000  0.8
+  Na+  Na1  1  0.00000000  0.00000000  0.00000000  0.2
+  Ba2+  Ba2  1  0.00000000  0.50000000  0.50000000  0.8
+  Na+  Na3  1  0.00000000  0.50000000  0.50000000  0.2
+  Ba2+  Ba4  1  0.50000000  0.00000000  0.50000000  0.8
+  Na+  Na5  1  0.50000000  0.00000000  0.50000000  0.2
+  Ba2+  Ba6  1  0.50000000  0.50000000  0.00000000  0.8
+  Na+  Na7  1  0.50000000  0.50000000  0.00000000  0.2
+  Fe2.1+  Fe8  1  0.25000000  0.25000000  0.75000000  1.0
+  Fe2.1+  Fe9  1  0.25000000  0.75000000  0.25000000  1.0
+  Fe2.1+  Fe10  1  0.75000000  0.25000000  0.25000000  1.0
+  Fe2.1+  Fe11  1  0.75000000  0.75000000  0.75000000  1.0
+  Fe2.1+  Fe12  1  0.75000000  0.75000000  0.25000000  1.0
+  Fe2.1+  Fe13  1  0.75000000  0.25000000  0.75000000  1.0
+  Fe2.1+  Fe14  1  0.25000000  0.75000000  0.75000000  1.0
+  Fe2.1+  Fe15  1  0.25000000  0.25000000  0.25000000  1.0
+  As3-  As16  1  0.00000000  0.00000000  0.64444000  1.0
+  As3-  As17  1  0.00000000  0.00000000  0.35556000  1.0
+  As3-  As18  1  0.00000000  0.50000000  0.14444000  1.0
+  As3-  As19  1  0.00000000  0.50000000  0.85556000  1.0
+  As3-  As20  1  0.50000000  0.00000000  0.14444000  1.0
+  As3-  As21  1  0.50000000  0.00000000  0.85556000  1.0
+  As3-  As22  1  0.50000000  0.50000000  0.64444000  1.0
+  As3-  As23  1  0.50000000  0.50000000  0.35556000  1.0

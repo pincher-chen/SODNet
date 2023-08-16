@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_Ba1.8Sr0.196Nd1.004Cu3O6.96
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.86460000
+_cell_length_b   3.90430000
+_cell_length_c   11.74100000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba1.8Sr0.196Nd1.004Cu3O6.96
+_chemical_formula_sum   'Ba1.8 Sr0.196 Nd1.004 Cu3 O6.96'
+_cell_volume   177.15475689
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ba2+  2.0
+  Sr2+  2.0
+  Nd3+  3.0
+  Cu2.29+  2.29
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba2+  Ba0  1  0.50000000  0.50000000  0.18160000  0.9
+  Sr2+  Sr1  1  0.50000000  0.50000000  0.18160000  0.096
+  Nd3+  Nd2  1  0.50000000  0.50000000  0.18160000  0.004
+  Ba2+  Ba3  1  0.50000000  0.50000000  0.81840000  0.9
+  Sr2+  Sr4  1  0.50000000  0.50000000  0.81840000  0.096
+  Nd3+  Nd5  1  0.50000000  0.50000000  0.81840000  0.004
+  Sr2+  Sr6  1  0.50000000  0.50000000  0.50000000  0.004
+  Nd3+  Nd7  1  0.50000000  0.50000000  0.50000000  0.996
+  Cu2.29+  Cu8  1  0.00000000  0.00000000  0.00000000  1.0
+  Cu2.29+  Cu9  1  0.00000000  0.00000000  0.34990000  1.0
+  Cu2.29+  Cu10  1  0.00000000  0.00000000  0.65010000  1.0
+  O2-  O11  1  0.00000000  0.00000000  0.16220000  1.0
+  O2-  O12  1  0.00000000  0.00000000  0.83780000  1.0
+  O2-  O13  1  0.00000000  0.50000000  0.33719000  1.0
+  O2-  O14  1  0.00000000  0.50000000  0.66281000  1.0
+  O2-  O15  1  0.50000000  0.00000000  0.37020000  1.0
+  O2-  O16  1  0.50000000  0.00000000  0.62980000  1.0
+  O2-  O17  1  0.50000000  0.00000000  0.00000000  0.04
+  O2-  O18  1  0.00000000  0.50000000  0.00000000  0.92

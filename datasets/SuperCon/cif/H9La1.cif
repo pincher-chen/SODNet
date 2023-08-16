@@ -1,0 +1,46 @@
+data_3D\Atomistic
+_audit_creation_date              2022-02-01
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'CC'
+_symmetry_Int_Tables_number       9
+_symmetry_cell_setting            monoclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  x,-y,z+1/2
+  x+1/2,y+1/2,z
+  x+1/2,-y+1/2,z+1/2
+_cell_length_a                    5.5182
+_cell_length_b                    5.4801
+_cell_length_c                    8.7836
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  137.6884
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+La1    La   -0.44188  -0.42736  -0.95784   0.00000  Uiso   1.00
+H2     H    -0.48253  -0.15102  -0.80784   0.00000  Uiso   1.00
+H3     H    -0.79723  -0.45792  -0.41698   0.00000  Uiso   1.00
+H4     H    -0.98153  -0.26495  -0.16038   0.00000  Uiso   1.00
+H5     H    -0.59696  -0.44799  -0.29199   0.00000  Uiso   1.00
+H6     H    -0.90537  -0.32796  -0.63673   0.00000  Uiso   1.00
+H7     H    -0.72395  -0.06120  -0.09486   0.00000  Uiso   1.00
+H8     H    -0.52603  -0.17360  -0.43048   0.00000  Uiso   1.00
+H9     H    -0.99078  -0.32614  -0.08105   0.00000  Uiso   1.00
+H10    H    -0.41160  -0.19646  -0.30173   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+H3     H5      0.797   .     S
+H4     H9      0.808   .     S
+H8     H10     0.798   .     S

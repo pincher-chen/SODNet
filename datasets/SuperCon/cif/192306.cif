@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_BaNa(FeAs)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.86920000
+_cell_length_b   3.86920000
+_cell_length_c   13.01707000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaNa(FeAs)4
+_chemical_formula_sum   'Ba1 Na1 Fe4 As4'
+_cell_volume   194.87476232
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ba2+  2.0
+  Na+  1.0
+  Fe2.25+  2.25
+  As3-  -3.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba2+  Ba0  1  0.00000000  0.00000000  0.00000000  0.5
+  Na+  Na1  1  0.00000000  0.00000000  0.00000000  0.5
+  Ba2+  Ba2  1  0.50000000  0.50000000  0.50000000  0.5
+  Na+  Na3  1  0.50000000  0.50000000  0.50000000  0.5
+  Fe2.25+  Fe4  1  0.50000000  0.00000000  0.75000000  1.0
+  Fe2.25+  Fe5  1  0.00000000  0.50000000  0.75000000  1.0
+  Fe2.25+  Fe6  1  0.50000000  0.00000000  0.25000000  1.0
+  Fe2.25+  Fe7  1  0.00000000  0.50000000  0.25000000  1.0
+  As3-  As8  1  0.00000000  0.00000000  0.64283000  1.0
+  As3-  As9  1  0.00000000  0.00000000  0.35717000  1.0
+  As3-  As10  1  0.50000000  0.50000000  0.14283000  1.0
+  As3-  As11  1  0.50000000  0.50000000  0.85717000  1.0

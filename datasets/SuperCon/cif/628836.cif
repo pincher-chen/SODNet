@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_CuSeS
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.92300000
+_cell_length_b   5.92300000
+_cell_length_c   5.92300000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuSeS
+_chemical_formula_sum   'Cu4 Se4 S4'
+_cell_volume   207.79026547
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Cu2+  2.0
+  Se-  -1.0
+  S-  -1.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu2+  Cu0  1  0.50000000  0.50000000  0.00000000  1.0
+  Cu2+  Cu1  1  0.50000000  0.00000000  0.50000000  1.0
+  Cu2+  Cu2  1  0.00000000  0.50000000  0.50000000  1.0
+  Cu2+  Cu3  1  0.00000000  0.00000000  0.00000000  1.0
+  Se-  Se4  1  0.11000000  0.89000000  0.39000000  0.5
+  S-  S5  1  0.11000000  0.89000000  0.39000000  0.5
+  Se-  Se6  1  0.89000000  0.39000000  0.11000000  0.5
+  S-  S7  1  0.89000000  0.39000000  0.11000000  0.5
+  Se-  Se8  1  0.39000000  0.11000000  0.89000000  0.5
+  S-  S9  1  0.39000000  0.11000000  0.89000000  0.5
+  Se-  Se10  1  0.61000000  0.61000000  0.61000000  0.5
+  S-  S11  1  0.61000000  0.61000000  0.61000000  0.5
+  Se-  Se12  1  0.89000000  0.11000000  0.61000000  0.5
+  S-  S13  1  0.89000000  0.11000000  0.61000000  0.5
+  Se-  Se14  1  0.11000000  0.61000000  0.89000000  0.5
+  S-  S15  1  0.11000000  0.61000000  0.89000000  0.5
+  Se-  Se16  1  0.61000000  0.89000000  0.11000000  0.5
+  S-  S17  1  0.61000000  0.89000000  0.11000000  0.5
+  Se-  Se18  1  0.39000000  0.39000000  0.39000000  0.5
+  S-  S19  1  0.39000000  0.39000000  0.39000000  0.5

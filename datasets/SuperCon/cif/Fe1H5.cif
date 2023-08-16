@@ -1,0 +1,91 @@
+data_3D\Atomistic
+_audit_creation_date              2022-02-01
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'I4/MMM'
+_symmetry_Int_Tables_number       139
+_symmetry_cell_setting            tetragonal
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -x,-y,z
+  -y,x,z
+  y,-x,z
+  -x,y,-z
+  x,-y,-z
+  y,x,-z
+  -y,-x,-z
+  -x,-y,-z
+  x,y,-z
+  y,-x,-z
+  -y,x,-z
+  x,-y,z
+  -x,y,z
+  -y,-x,z
+  y,x,z
+  x+1/2,y+1/2,z+1/2
+  -x+1/2,-y+1/2,z+1/2
+  -y+1/2,x+1/2,z+1/2
+  y+1/2,-x+1/2,z+1/2
+  -x+1/2,y+1/2,-z+1/2
+  x+1/2,-y+1/2,-z+1/2
+  y+1/2,x+1/2,-z+1/2
+  -y+1/2,-x+1/2,-z+1/2
+  -x+1/2,-y+1/2,-z+1/2
+  x+1/2,y+1/2,-z+1/2
+  y+1/2,-x+1/2,-z+1/2
+  -y+1/2,x+1/2,-z+1/2
+  x+1/2,-y+1/2,z+1/2
+  -x+1/2,y+1/2,z+1/2
+  -y+1/2,-x+1/2,z+1/2
+  y+1/2,x+1/2,z+1/2
+_cell_length_a                    2.3900
+_cell_length_b                    2.3900
+_cell_length_c                    11.5100
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Fe1    Fe    0.00000   0.00000  -0.10300   0.00000  Uiso   1.00
+H2     H     0.00000   0.00000   0.40900   0.00000  Uiso   1.00
+H3     H     0.00000   0.00000   0.23100   0.00000  Uiso   1.00
+H4     H     0.00000   0.50000  -0.18500   0.00000  Uiso   1.00
+H5     H     0.00000   0.50000   0.00000   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+Fe1    Fe1     2.390   1_655 S
+Fe1    Fe1     2.390   1_455 S
+Fe1    Fe1     2.390   1_565 S
+Fe1    Fe1     2.390   1_545 S
+Fe1    Fe1     2.371   5     S
+Fe1    H4      1.523   1_545 S
+Fe1    H4      1.523   3_655 S
+Fe1    H4      1.523   3     S
+Fe1    H2      1.696   17_554 S
+Fe1    H2      1.696   17_444 S
+Fe1    H2      1.696   17_454 S
+Fe1    H2      1.696   17_544 S
+Fe1    H3      1.473   5     S
+Fe1    H5      1.683   1_545 S
+Fe1    H5      1.683   3_655 S
+Fe1    H5      1.683   3     S
+H2     Fe1     1.696   17_445 S
+H2     Fe1     1.696   17    S
+H2     Fe1     1.696   17_545 S
+H2     Fe1     1.696   17_455 S
+H3     Fe1     1.473   5     S
+H4     Fe1     1.523   1_565 S
+H5     Fe1     1.683   1_565 S
+H5     Fe1     1.683   5_565 S
+H5     Fe1     1.683   5     S

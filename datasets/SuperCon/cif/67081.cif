@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Ba2Nd1Cu3O6.63
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.87360000
+_cell_length_b   3.92190000
+_cell_length_c   11.79450000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Nd1Cu3O6.63
+_chemical_formula_sum   'Ba2 Nd1 Cu3 O6.63'
+_cell_volume   179.18053242
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ba2+  2.0
+  Nd3+  3.0
+  Cu2.15+  2.15
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba2+  Ba0  1  0.50000000  0.50000000  0.18630000  1.0
+  Ba2+  Ba1  1  0.50000000  0.50000000  0.81370000  1.0
+  Nd3+  Nd2  1  0.50000000  0.50000000  0.50000000  1.0
+  Cu2.15+  Cu3  1  0.00000000  0.00000000  0.00000000  1.0
+  Cu2.15+  Cu4  1  0.00000000  0.00000000  0.35170000  1.0
+  Cu2.15+  Cu5  1  0.00000000  0.00000000  0.64830000  1.0
+  O2-  O6  1  0.50000000  0.00000000  0.37140000  1.0
+  O2-  O7  1  0.50000000  0.00000000  0.62860000  1.0
+  O2-  O8  1  0.00000000  0.50000000  0.37140000  1.0
+  O2-  O9  1  0.00000000  0.50000000  0.62860000  1.0
+  O2-  O10  1  0.50000000  0.00000000  0.00000000  0.07
+  O2-  O11  1  0.00000000  0.50000000  0.00000000  0.59
+  O2-  O12  1  0.00000000  0.00000000  0.15490000  0.985
+  O2-  O13  1  0.00000000  0.00000000  0.84510000  0.985

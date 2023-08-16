@@ -1,0 +1,74 @@
+
+#(C) 2019 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure, and the U.S. Secretary of
+#Commerce on behalf of the United States.  All rights reserved.
+data_676329-ICSD
+_database_code_ICSD 676329
+_audit_creation_date 2019-02-01
+_chemical_name_systematic 'Tantalum hydride'
+_chemical_formula_structural 'Ta H2'
+_chemical_formula_sum 'H2 Ta1'
+_exptl_crystal_density_diffrn 20.6
+_cell_measurement_pressure 200000000.
+_publ_section_title
+'Pressure-stabilized superconductive ionic tantalum hydrides'
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Inorganic Chemistry' 2017 56 3901 3908 INOCAJ
+loop_
+_publ_author_name
+'Zhuang, Quan'
+'Jin, Xilian'
+'Cui, Tian'
+'Ma, Yanbin'
+'Lv, Qianqian'
+'Li, Ying'
+'Zhang, Huadi'
+'Meng, Xing'
+'Bao, Kuo'
+_cell_length_a 4.506
+_cell_length_b 2.729
+_cell_length_c 4.798
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 59.
+_cell_formula_units_Z 4
+_symmetry_space_group_name_H-M 'P n m a'
+_symmetry_Int_Tables_number 62
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x+1/2, y, -z+1/2'
+2 'x, -y+1/2, z'
+3 '-x+1/2, y+1/2, z+1/2'
+4 '-x, -y, -z'
+5 '-x+1/2, -y, z+1/2'
+6 '-x, y+1/2, -z'
+7 'x+1/2, -y+1/2, -z+1/2'
+8 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+H0+ 0
+Ta0+ 0
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+H1 H0+ 4 c 0.113 0.75 0.574 1. 1. 0
+H2 H0+ 4 c 0.515 0.75 0.273 1. 1. 0
+Ta1 Ta0+ 4 c 0.234 0.75 0.912 1. 1. 0
+#End of TTdata_676329-ICSD

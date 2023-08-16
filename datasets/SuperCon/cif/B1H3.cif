@@ -1,0 +1,48 @@
+data_3D\Atomistic
+_audit_creation_date              2022-02-01
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'PBCN'
+_symmetry_Int_Tables_number       60
+_symmetry_cell_setting            orthorhombic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -x+1/2,-y+1/2,z+1/2
+  -x,y,-z+1/2
+  x+1/2,-y+1/2,-z
+  -x,-y,-z
+  x+1/2,y+1/2,-z+1/2
+  x,-y,z+1/2
+  -x+1/2,y+1/2,z
+_cell_length_a                    2.4050
+_cell_length_b                    4.5880
+_cell_length_c                    2.7650
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+H1     H     0.20720   0.31150   0.20580   0.00000  Uiso   1.00
+B2     B     0.00000   0.07070   0.25000   0.00000  Uiso   1.00
+H3     H     0.00000   0.58830   0.25000   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+H1     B2      1.218   .     S
+B2     B2      1.527   5     S
+B2     B2      1.527   5_556 S
+B2     H1      1.218   3     S
+B2     H3      1.205   6_445 S
+B2     H3      1.205   6_545 S
+H3     B2      1.205   6     S
+H3     B2      1.205   6_455 S

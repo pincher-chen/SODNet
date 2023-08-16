@@ -1,0 +1,96 @@
+
+#(C) 2019 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure, and the U.S. Secretary of
+#Commerce on behalf of the United States.  All rights reserved.
+data_671138-ICSD
+_database_code_ICSD 671138
+_audit_creation_date 2017-02-01
+_chemical_name_systematic 'Bismuth Hydride'
+_chemical_formula_structural 'Bi H3'
+_chemical_formula_sum 'H3 Bi1'
+_exptl_crystal_density_diffrn 19.04
+_cell_measurement_pressure 270000000.
+_publ_section_title
+
+;
+Stabilization and highly metallic properties of heavy group-V hydrides at high
+pressures
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Physical Review B: Condensed Matter and Materials Physics' 2015 92
+224109-1 224109-5 PRBMDO
+loop_
+_publ_author_name
+'Abe, Kazutaka'
+'Ashcroft, N.W.'
+_cell_length_a 2.851
+_cell_length_b 2.851
+_cell_length_c 9.098
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 73.95
+_cell_formula_units_Z 4
+_symmetry_space_group_name_H-M 'I 41/a m d Z'
+_symmetry_Int_Tables_number 141
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'y+1/4, x+3/4, -z+1/4'
+2 'y+1/4, -x+3/4, -z+1/4'
+3 'x, y+1/2, -z'
+4 'x, -y, -z'
+5 '-y+3/4, x+3/4, -z+1/4'
+6 '-y+3/4, -x+3/4, -z+1/4'
+7 '-x, y+1/2, -z'
+8 '-x, -y, -z'
+9 '-y+3/4, -x+1/4, z+3/4'
+10 '-y+3/4, x+1/4, z+3/4'
+11 '-x, -y+1/2, z'
+12 '-x, y, z'
+13 'y+1/4, -x+1/4, z+3/4'
+14 'y+1/4, x+1/4, z+3/4'
+15 'x, -y+1/2, z'
+16 'x, y, z'
+17 'y+3/4, x+1/4, -z+3/4'
+18 'y+3/4, -x+1/4, -z+3/4'
+19 'x+1/2, y, -z+1/2'
+20 'x+1/2, -y+1/2, -z+1/2'
+21 '-y+1/4, x+1/4, -z+3/4'
+22 '-y+1/4, -x+1/4, -z+3/4'
+23 '-x+1/2, y, -z+1/2'
+24 '-x+1/2, -y+1/2, -z+1/2'
+25 '-y+1/4, -x+3/4, z+1/4'
+26 '-y+1/4, x+3/4, z+1/4'
+27 '-x+1/2, -y, z+1/2'
+28 '-x+1/2, y+1/2, z+1/2'
+29 'y+3/4, -x+3/4, z+1/4'
+30 'y+3/4, x+3/4, z+1/4'
+31 'x+1/2, -y, z+1/2'
+32 'x+1/2, y+1/2, z+1/2'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Bi0+ 0
+H0+ 0
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+Bi1 Bi0+ 4 a 0. 0.75 0.125 1. 1. 0
+H1 H0+ 4 b 0. 0.25 0.375 1. 1. 0
+H2 H0+ 8 e 0. 0.25 0.273 1. 1. 0
+#End of TTdata_671138-ICSD

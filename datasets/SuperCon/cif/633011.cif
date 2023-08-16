@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Zr4FeNi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.44000000
+_cell_length_b   6.44000000
+_cell_length_c   5.43000000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr4FeNi
+_chemical_formula_sum   'Zr8 Fe2 Ni2'
+_cell_volume   225.20164800
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Zr0+  0.0
+  Fe0+  0.0
+  Ni0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr0+  Zr0  1  0.66800000  0.16800000  0.50000000  1.0
+  Zr0+  Zr1  1  0.33200000  0.83200000  0.50000000  1.0
+  Zr0+  Zr2  1  0.33200000  0.16800000  0.00000000  1.0
+  Zr0+  Zr3  1  0.66800000  0.83200000  0.00000000  1.0
+  Zr0+  Zr4  1  0.16800000  0.33200000  0.50000000  1.0
+  Zr0+  Zr5  1  0.83200000  0.66800000  0.50000000  1.0
+  Zr0+  Zr6  1  0.16800000  0.66800000  0.00000000  1.0
+  Zr0+  Zr7  1  0.83200000  0.33200000  0.00000000  1.0
+  Fe0+  Fe8  1  0.00000000  0.00000000  0.25000000  0.5
+  Ni0+  Ni9  1  0.00000000  0.00000000  0.25000000  0.5
+  Fe0+  Fe10  1  0.00000000  0.00000000  0.75000000  0.5
+  Ni0+  Ni11  1  0.00000000  0.00000000  0.75000000  0.5
+  Fe0+  Fe12  1  0.50000000  0.50000000  0.75000000  0.5
+  Ni0+  Ni13  1  0.50000000  0.50000000  0.75000000  0.5
+  Fe0+  Fe14  1  0.50000000  0.50000000  0.25000000  0.5
+  Ni0+  Ni15  1  0.50000000  0.50000000  0.25000000  0.5

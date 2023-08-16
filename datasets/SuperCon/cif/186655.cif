@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_La2Fe1.85Co0.15As2O2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.03360000
+_cell_length_b   4.03360000
+_cell_length_c   8.71260000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2Fe1.85Co0.15As2O2
+_chemical_formula_sum   'La2 Fe1.85 Co0.15 As2 O2'
+_cell_volume   141.75338306
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  La3+  3.0
+  Fe2+  2.0
+  Co2+  2.0
+  As3-  -3.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La3+  La0  1  0.75000000  0.75000000  0.84200000  1.0
+  La3+  La1  1  0.25000000  0.25000000  0.15800000  1.0
+  Fe2+  Fe2  1  0.75000000  0.25000000  0.50000000  0.925
+  Co2+  Co3  1  0.75000000  0.25000000  0.50000000  0.075
+  Fe2+  Fe4  1  0.25000000  0.75000000  0.50000000  0.925
+  Co2+  Co5  1  0.25000000  0.75000000  0.50000000  0.075
+  As3-  As6  1  0.75000000  0.75000000  0.33600000  1.0
+  As3-  As7  1  0.25000000  0.25000000  0.66400000  1.0
+  O2-  O8  1  0.75000000  0.25000000  0.00000000  1.0
+  O2-  O9  1  0.25000000  0.75000000  0.00000000  1.0

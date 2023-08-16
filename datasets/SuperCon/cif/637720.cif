@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_UGeRh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.87600000
+_cell_length_b   4.33300000
+_cell_length_c   7.51300000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   UGeRh
+_chemical_formula_sum   'U4 Ge4 Rh4'
+_cell_volume   223.84012820
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  U0+  0.0
+  Ge0+  0.0
+  Rh0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U0+  U0  1  0.50000000  0.25000000  0.79800000  1.0
+  U0+  U1  1  0.00000000  0.25000000  0.70200000  1.0
+  U0+  U2  1  0.50000000  0.75000000  0.20200000  1.0
+  U0+  U3  1  0.00000000  0.75000000  0.29800000  1.0
+  Ge0+  Ge4  1  0.84300000  0.25000000  0.07800000  1.0
+  Ge0+  Ge5  1  0.34300000  0.25000000  0.42200000  1.0
+  Ge0+  Ge6  1  0.15700000  0.75000000  0.92200000  1.0
+  Ge0+  Ge7  1  0.65700000  0.75000000  0.57800000  1.0
+  Rh0+  Rh8  1  0.72600000  0.25000000  0.42400000  1.0
+  Rh0+  Rh9  1  0.22600000  0.25000000  0.07600000  1.0
+  Rh0+  Rh10  1  0.27400000  0.75000000  0.57600000  1.0
+  Rh0+  Rh11  1  0.77400000  0.75000000  0.92400000  1.0

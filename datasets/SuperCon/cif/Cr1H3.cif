@@ -1,0 +1,78 @@
+data_3D\Atomistic
+_audit_creation_date              2022-02-01
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P63/MMC'
+_symmetry_Int_Tables_number       194
+_symmetry_cell_setting            hexagonal
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -y,x-y,z
+  -x+y,-x,z
+  -x,-y,z+1/2
+  y,-x+y,z+1/2
+  x-y,x,z+1/2
+  y,x,-z
+  x-y,-y,-z
+  -x,-x+y,-z
+  -y,-x,-z+1/2
+  -x+y,y,-z+1/2
+  x,x-y,-z+1/2
+  -x,-y,-z
+  y,-x+y,-z
+  x-y,x,-z
+  x,y,-z+1/2
+  -y,x-y,-z+1/2
+  -x+y,-x,-z+1/2
+  -y,-x,z
+  -x+y,y,z
+  x,x-y,z
+  y,x,z+1/2
+  x-y,-y,z+1/2
+  -x,-x+y,z+1/2
+_cell_length_a                    3.5100
+_cell_length_b                    3.5100
+_cell_length_c                    2.4560
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 120.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Cr     Cr    0.66667   0.33333   0.75000   0.00000  Uiso   1.00
+H      H     0.85300   0.14700   0.25000   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+Cr     Cr      2.456   1_554 S
+Cr     Cr      2.456   1_556 S
+Cr     Cr      2.370   4_664 S
+Cr     Cr      2.370   4_654 S
+Cr     Cr      2.370   4_764 S
+Cr     Cr      2.370   4_665 S
+Cr     Cr      2.370   4_765 S
+Cr     Cr      2.370   4_655 S
+Cr     H       1.671   .     S
+Cr     H       1.671   2_655 S
+Cr     H       1.671   3_665 S
+Cr     H       1.671   1_556 S
+Cr     H       1.671   3_666 S
+Cr     H       1.671   2_656 S
+Cr     H       1.759   4_655 S
+Cr     H       1.759   5_665 S
+Cr     H       1.759   6     S
+Cr     H       1.759   4_765 S
+Cr     H       1.759   6_545 S
+Cr     H       1.759   5_565 S
+H      Cr      1.671   1_554 S
+H      Cr      1.759   4_654 S
+H      Cr      1.759   4_764 S

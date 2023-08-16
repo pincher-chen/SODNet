@@ -1,0 +1,49 @@
+# generated using pymatgen
+data_Nb5Sb4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.31400000
+_cell_length_b   10.31400000
+_cell_length_c   3.55660000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb5Sb4
+_chemical_formula_sum   'Nb10 Sb8'
+_cell_volume   378.34611453
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Nb0+  0.0
+  Sb0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb0+  Nb0  1  0.00000000  0.00000000  0.00000000  1.0
+  Nb0+  Nb1  1  0.50000000  0.50000000  0.50000000  1.0
+  Nb0+  Nb2  1  0.62000000  0.31000000  0.00000000  1.0
+  Nb0+  Nb3  1  0.38000000  0.69000000  0.00000000  1.0
+  Nb0+  Nb4  1  0.31000000  0.38000000  0.00000000  1.0
+  Nb0+  Nb5  1  0.69000000  0.62000000  0.00000000  1.0
+  Nb0+  Nb6  1  0.12000000  0.81000000  0.50000000  1.0
+  Nb0+  Nb7  1  0.88000000  0.19000000  0.50000000  1.0
+  Nb0+  Nb8  1  0.81000000  0.88000000  0.50000000  1.0
+  Nb0+  Nb9  1  0.19000000  0.12000000  0.50000000  1.0
+  Sb0+  Sb10  1  0.72000000  0.06000000  0.00000000  1.0
+  Sb0+  Sb11  1  0.28000000  0.94000000  0.00000000  1.0
+  Sb0+  Sb12  1  0.06000000  0.28000000  0.00000000  1.0
+  Sb0+  Sb13  1  0.94000000  0.72000000  0.00000000  1.0
+  Sb0+  Sb14  1  0.22000000  0.56000000  0.50000000  1.0
+  Sb0+  Sb15  1  0.78000000  0.44000000  0.50000000  1.0
+  Sb0+  Sb16  1  0.56000000  0.78000000  0.50000000  1.0
+  Sb0+  Sb17  1  0.44000000  0.22000000  0.50000000  1.0

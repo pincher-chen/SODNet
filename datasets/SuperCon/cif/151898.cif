@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_V6InS8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.95300000
+_cell_length_b   8.95300000
+_cell_length_c   3.25400000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   V6InS8
+_chemical_formula_sum   'V6 In1 S8'
+_cell_volume   225.88393736
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  V2.17+  2.17
+  In3+  3.0
+  S2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V2.17+  V0  1  0.36800000  0.48300000  0.71400000  1.0
+  V2.17+  V1  1  0.11500000  0.63200000  0.71400000  1.0
+  V2.17+  V2  1  0.51700000  0.88500000  0.71400000  1.0
+  V2.17+  V3  1  0.63200000  0.51700000  0.21400000  1.0
+  V2.17+  V4  1  0.88500000  0.36800000  0.21400000  1.0
+  V2.17+  V5  1  0.48300000  0.11500000  0.21400000  1.0
+  In3+  In6  1  0.00000000  0.00000000  0.52100000  0.5
+  In3+  In7  1  0.00000000  0.00000000  0.02100000  0.5
+  S2-  S8  1  0.03300000  0.32600000  0.74400000  1.0
+  S2-  S9  1  0.29300000  0.96700000  0.74400000  1.0
+  S2-  S10  1  0.67400000  0.70700000  0.74400000  1.0
+  S2-  S11  1  0.96700000  0.67400000  0.24400000  1.0
+  S2-  S12  1  0.70700000  0.03300000  0.24400000  1.0
+  S2-  S13  1  0.32600000  0.29300000  0.24400000  1.0
+  S2-  S14  1  0.66666667  0.33333333  0.84100000  1.0
+  S2-  S15  1  0.33333333  0.66666667  0.34100000  1.0

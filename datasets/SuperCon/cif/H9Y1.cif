@@ -1,0 +1,75 @@
+data_3D\Atomistic
+_audit_creation_date              2022-02-01
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P63/MMC'
+_symmetry_Int_Tables_number       194
+_symmetry_cell_setting            hexagonal
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -y,x-y,z
+  -x+y,-x,z
+  -x,-y,z+1/2
+  y,-x+y,z+1/2
+  x-y,x,z+1/2
+  y,x,-z
+  x-y,-y,-z
+  -x,-x+y,-z
+  -y,-x,-z+1/2
+  -x+y,y,-z+1/2
+  x,x-y,-z+1/2
+  -x,-y,-z
+  y,-x+y,-z
+  x-y,x,-z
+  x,y,-z+1/2
+  -y,x-y,-z+1/2
+  -x+y,-x,-z+1/2
+  -y,-x,z
+  -x+y,y,z
+  x,x-y,z
+  y,x,z+1/2
+  x-y,-y,z+1/2
+  -x,-x+y,z+1/2
+_cell_length_a                    3.2664
+_cell_length_b                    3.2664
+_cell_length_c                    10.0000
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 120.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Y1     Y     0.33333   0.66667   0.25000   0.00000  Uiso   1.00
+H2     H     0.15277   0.84723   0.44109   0.00000  Uiso   1.00
+H3     H     0.33333   0.66667   0.14886   0.00000  Uiso   1.00
+H4     H     0.00000   0.00000   0.75000   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+Y1     Y1      3.266   1_665 S
+Y1     Y1      3.266   1_455 S
+Y1     Y1      3.266   1_545 S
+Y1     Y1      3.266   1_445 S
+Y1     Y1      3.266   1_565 S
+Y1     Y1      3.266   1_655 S
+Y1     H2      2.167   .     S
+Y1     H2      2.167   2_665 S
+Y1     H2      2.167   3_565 S
+Y1     H2      2.167   10_665 S
+Y1     H2      2.167   11    S
+Y1     H2      2.167   12_565 S
+Y1     H4      1.886   4_664 S
+Y1     H4      1.886   4_564 S
+Y1     H4      1.886   4_554 S
+H4     Y1      1.886   4_665 S
+H4     Y1      1.886   4_565 S
+H4     Y1      1.886   4     S

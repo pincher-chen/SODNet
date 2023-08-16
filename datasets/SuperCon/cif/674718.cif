@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_W2C
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.76100000
+_cell_length_b   5.24300000
+_cell_length_c   6.11300000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   W2C
+_chemical_formula_sum   'W8 C4'
+_cell_volume   152.59223530
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  W0+  0.0
+  C0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  W0+  W0  1  0.25510000  0.58100000  0.62320000  1.0
+  W0+  W1  1  0.24490000  0.91900000  0.12320000  1.0
+  W0+  W2  1  0.75510000  0.91900000  0.37680000  1.0
+  W0+  W3  1  0.74490000  0.58100000  0.87680000  1.0
+  W0+  W4  1  0.74490000  0.41900000  0.37680000  1.0
+  W0+  W5  1  0.75510000  0.08100000  0.87680000  1.0
+  W0+  W6  1  0.24490000  0.08100000  0.62320000  1.0
+  W0+  W7  1  0.25510000  0.41900000  0.12320000  1.0
+  C0+  C8  1  0.00000000  0.62180000  0.75000000  1.0
+  C0+  C9  1  0.50000000  0.87820000  0.25000000  1.0
+  C0+  C10  1  0.00000000  0.37820000  0.25000000  1.0
+  C0+  C11  1  0.50000000  0.12180000  0.75000000  1.0

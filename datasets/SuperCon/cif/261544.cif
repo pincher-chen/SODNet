@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Na1.728Hf6N6Cl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.58960000
+_cell_length_b   3.58960000
+_cell_length_c   29.74600000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na1.728Hf6N6Cl6
+_chemical_formula_sum   'Na1.728 Hf6 N6 Cl6'
+_cell_volume   331.93367813
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Na+  1.0
+  Hf3.71+  3.71
+  N3-  -3.0
+  Cl-  -1.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na+  Na0  1  0.00000000  0.00000000  0.00000000  0.576
+  Na+  Na1  1  0.66666667  0.33333333  0.33333333  0.576
+  Na+  Na2  1  0.33333333  0.66666667  0.66666667  0.576
+  Hf3.71+  Hf3  1  0.00000000  0.00000000  0.79170000  1.0
+  Hf3.71+  Hf4  1  0.00000000  0.00000000  0.20830000  1.0
+  Hf3.71+  Hf5  1  0.66666667  0.33333333  0.12503333  1.0
+  Hf3.71+  Hf6  1  0.66666667  0.33333333  0.54163333  1.0
+  Hf3.71+  Hf7  1  0.33333333  0.66666667  0.45836667  1.0
+  Hf3.71+  Hf8  1  0.33333333  0.66666667  0.87496667  1.0
+  N3-  N9  1  0.00000000  0.00000000  0.86320000  1.0
+  N3-  N10  1  0.00000000  0.00000000  0.13680000  1.0
+  N3-  N11  1  0.66666667  0.33333333  0.19653333  1.0
+  N3-  N12  1  0.66666667  0.33333333  0.47013333  1.0
+  N3-  N13  1  0.33333333  0.66666667  0.52986667  1.0
+  N3-  N14  1  0.33333333  0.66666667  0.80346667  1.0
+  Cl-  Cl15  1  0.00000000  0.00000000  0.60560000  1.0
+  Cl-  Cl16  1  0.00000000  0.00000000  0.39440000  1.0
+  Cl-  Cl17  1  0.66666667  0.33333333  0.93893333  1.0
+  Cl-  Cl18  1  0.66666667  0.33333333  0.72773333  1.0
+  Cl-  Cl19  1  0.33333333  0.66666667  0.27226667  1.0
+  Cl-  Cl20  1  0.33333333  0.66666667  0.06106667  1.0

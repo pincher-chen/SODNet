@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Bi3Rh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.86800000
+_cell_length_b   4.24000000
+_cell_length_c   11.37800000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Bi3Rh
+_chemical_formula_sum   'Bi12 Rh4'
+_cell_volume   427.81644096
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Bi0+  0.0
+  Rh0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi0+  Bi0  1  0.90200000  0.25000000  0.32000000  1.0
+  Bi0+  Bi1  1  0.40200000  0.25000000  0.18000000  1.0
+  Bi0+  Bi2  1  0.09800000  0.75000000  0.68000000  1.0
+  Bi0+  Bi3  1  0.59800000  0.75000000  0.82000000  1.0
+  Bi0+  Bi4  1  0.39800000  0.25000000  0.58900000  1.0
+  Bi0+  Bi5  1  0.89800000  0.25000000  0.91100000  1.0
+  Bi0+  Bi6  1  0.60200000  0.75000000  0.41100000  1.0
+  Bi0+  Bi7  1  0.10200000  0.75000000  0.08900000  1.0
+  Bi0+  Bi8  1  0.29900000  0.25000000  0.88600000  1.0
+  Bi0+  Bi9  1  0.79900000  0.25000000  0.61400000  1.0
+  Bi0+  Bi10  1  0.70100000  0.75000000  0.11400000  1.0
+  Bi0+  Bi11  1  0.20100000  0.75000000  0.38600000  1.0
+  Rh0+  Rh12  1  0.09800000  0.25000000  0.51800000  1.0
+  Rh0+  Rh13  1  0.59800000  0.25000000  0.98200000  1.0
+  Rh0+  Rh14  1  0.90200000  0.75000000  0.48200000  1.0
+  Rh0+  Rh15  1  0.40200000  0.75000000  0.01800000  1.0

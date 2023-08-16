@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Ce2In8Co
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.64000000
+_cell_length_b   4.64000000
+_cell_length_c   12.25100000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce2In8Co
+_chemical_formula_sum   'Ce2 In8 Co1'
+_cell_volume   263.75912960
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ce0+  0.0
+  In0+  0.0
+  Co0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce0+  Ce0  1  0.00000000  0.00000000  0.68950000  1.0
+  Ce0+  Ce1  1  0.00000000  0.00000000  0.31050000  1.0
+  In0+  In2  1  0.50000000  0.00000000  0.50000000  1.0
+  In0+  In3  1  0.00000000  0.50000000  0.50000000  1.0
+  In0+  In4  1  0.50000000  0.50000000  0.70380000  1.0
+  In0+  In5  1  0.50000000  0.50000000  0.29620000  1.0
+  In0+  In6  1  0.50000000  0.00000000  0.88010000  1.0
+  In0+  In7  1  0.00000000  0.50000000  0.88010000  1.0
+  In0+  In8  1  0.50000000  0.00000000  0.11990000  1.0
+  In0+  In9  1  0.00000000  0.50000000  0.11990000  1.0
+  Co0+  Co10  1  0.00000000  0.00000000  0.00000000  1.0

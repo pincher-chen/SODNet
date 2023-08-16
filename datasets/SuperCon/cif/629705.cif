@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_DyGa6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.92300000
+_cell_length_b   5.92300000
+_cell_length_c   7.54300000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyGa6
+_chemical_formula_sum   'Dy2 Ga12'
+_cell_volume   264.62299045
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Dy0+  0.0
+  Ga0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy0+  Dy0  1  0.75000000  0.25000000  0.00000000  1.0
+  Dy0+  Dy1  1  0.25000000  0.75000000  0.00000000  1.0
+  Ga0+  Ga2  1  0.75000000  0.75000000  0.16800000  1.0
+  Ga0+  Ga3  1  0.25000000  0.25000000  0.16800000  1.0
+  Ga0+  Ga4  1  0.25000000  0.25000000  0.83200000  1.0
+  Ga0+  Ga5  1  0.75000000  0.75000000  0.83200000  1.0
+  Ga0+  Ga6  1  0.05200000  0.94800000  0.34800000  1.0
+  Ga0+  Ga7  1  0.55200000  0.05200000  0.34800000  1.0
+  Ga0+  Ga8  1  0.94800000  0.44800000  0.34800000  1.0
+  Ga0+  Ga9  1  0.44800000  0.55200000  0.34800000  1.0
+  Ga0+  Ga10  1  0.94800000  0.05200000  0.65200000  1.0
+  Ga0+  Ga11  1  0.44800000  0.94800000  0.65200000  1.0
+  Ga0+  Ga12  1  0.05200000  0.55200000  0.65200000  1.0
+  Ga0+  Ga13  1  0.55200000  0.44800000  0.65200000  1.0

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Mo8P5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.39920000
+_cell_length_b   3.20880000
+_cell_length_c   6.53690000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   109.59200000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mo8P5
+_chemical_formula_sum   'Mo8 P5'
+_cell_volume   185.73953696
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Mo1.875+  1.875
+  P3-  -3.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo1.875+  Mo0  1  0.00000000  0.00000000  0.00000000  1.0
+  Mo1.875+  Mo1  1  0.78060000  0.00000000  0.23900000  1.0
+  Mo1.875+  Mo2  1  0.24680000  0.00000000  0.79310000  1.0
+  Mo1.875+  Mo3  1  0.30610000  0.00000000  0.35690000  1.0
+  Mo1.875+  Mo4  1  0.57060000  0.00000000  0.79390000  1.0
+  Mo1.875+  Mo5  1  0.05290000  0.50000000  0.39370000  1.0
+  Mo1.875+  Mo6  1  0.78050000  0.50000000  0.61130000  1.0
+  Mo1.875+  Mo7  1  0.49770000  0.50000000  0.12320000  1.0
+  P3-  P8  1  0.58310000  0.00000000  0.43010000  1.0
+  P3-  P9  1  0.98560000  0.00000000  0.62360000  1.0
+  P3-  P10  1  0.20900000  0.50000000  0.06590000  1.0
+  P3-  P11  1  0.37160000  0.50000000  0.65530000  1.0
+  P3-  P12  1  0.78580000  0.50000000  0.98130000  1.0

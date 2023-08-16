@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_U2PtC2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.52200000
+_cell_length_b   3.52200000
+_cell_length_c   12.54800000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   U2PtC2
+_chemical_formula_sum   'U4 Pt2 C4'
+_cell_volume   155.65146523
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  U0+  0.0
+  Pt0+  0.0
+  C0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U0+  U0  1  0.00000000  0.00000000  0.64500000  1.0
+  U0+  U1  1  0.00000000  0.00000000  0.35500000  1.0
+  U0+  U2  1  0.50000000  0.50000000  0.14500000  1.0
+  U0+  U3  1  0.50000000  0.50000000  0.85500000  1.0
+  Pt0+  Pt4  1  0.00000000  0.00000000  0.00000000  1.0
+  Pt0+  Pt5  1  0.50000000  0.50000000  0.50000000  1.0
+  C0+  C6  1  0.00000000  0.00000000  0.83200000  1.0
+  C0+  C7  1  0.00000000  0.00000000  0.16800000  1.0
+  C0+  C8  1  0.50000000  0.50000000  0.33200000  1.0
+  C0+  C9  1  0.50000000  0.50000000  0.66800000  1.0

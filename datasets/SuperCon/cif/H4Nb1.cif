@@ -1,0 +1,92 @@
+data_3D\Atomistic
+_audit_creation_date              2022-02-02
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'I4/MMM'
+_symmetry_Int_Tables_number       139
+_symmetry_cell_setting            tetragonal
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -x,-y,z
+  -y,x,z
+  y,-x,z
+  -x,y,-z
+  x,-y,-z
+  y,x,-z
+  -y,-x,-z
+  -x,-y,-z
+  x,y,-z
+  y,-x,-z
+  -y,x,-z
+  x,-y,z
+  -x,y,z
+  -y,-x,z
+  y,x,z
+  x+1/2,y+1/2,z+1/2
+  -x+1/2,-y+1/2,z+1/2
+  -y+1/2,x+1/2,z+1/2
+  y+1/2,-x+1/2,z+1/2
+  -x+1/2,y+1/2,-z+1/2
+  x+1/2,-y+1/2,-z+1/2
+  y+1/2,x+1/2,-z+1/2
+  -y+1/2,-x+1/2,-z+1/2
+  -x+1/2,-y+1/2,-z+1/2
+  x+1/2,y+1/2,-z+1/2
+  y+1/2,-x+1/2,-z+1/2
+  -y+1/2,x+1/2,-z+1/2
+  x+1/2,-y+1/2,z+1/2
+  -x+1/2,y+1/2,z+1/2
+  -y+1/2,-x+1/2,z+1/2
+  y+1/2,x+1/2,z+1/2
+_cell_length_a                    3.4390
+_cell_length_b                    3.4390
+_cell_length_c                    2.6850
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Nb     Nb    0.00000   0.00000   0.00000   0.00000  Uiso   1.00
+H      H     0.17530   0.50000   0.00000   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+Nb     Nb      2.685   1_556 S
+Nb     Nb      2.685   1_554 S
+Nb     Nb      2.778   17    S
+Nb     Nb      2.778   17_445 S
+Nb     Nb      2.778   17_455 S
+Nb     Nb      2.778   17_545 S
+Nb     Nb      2.778   17_454 S
+Nb     Nb      2.778   17_544 S
+Nb     Nb      2.778   17_554 S
+Nb     Nb      2.778   17_444 S
+Nb     H       1.822   .     S
+Nb     H       1.822   2     S
+Nb     H       1.822   3     S
+Nb     H       1.822   4     S
+Nb     H       1.822   2_565 S
+Nb     H       1.822   1_545 S
+Nb     H       1.822   3_655 S
+Nb     H       1.822   4_455 S
+Nb     H       1.746   17_444 S
+Nb     H       1.746   18_554 S
+Nb     H       1.746   19_544 S
+Nb     H       1.746   20_454 S
+Nb     H       1.746   18    S
+Nb     H       1.746   17_445 S
+Nb     H       1.746   19_545 S
+Nb     H       1.746   20_455 S
+H      Nb      1.822   1_565 S
+H      Nb      1.746   17    S
+H      Nb      1.746   17_554 S

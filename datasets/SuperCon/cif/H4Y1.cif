@@ -1,0 +1,103 @@
+data_3D\Atomistic
+_audit_creation_date              2022-02-01
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'I4/MMM'
+_symmetry_Int_Tables_number       139
+_symmetry_cell_setting            tetragonal
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -x,-y,z
+  -y,x,z
+  y,-x,z
+  -x,y,-z
+  x,-y,-z
+  y,x,-z
+  -y,-x,-z
+  -x,-y,-z
+  x,y,-z
+  y,-x,-z
+  -y,x,-z
+  x,-y,z
+  -x,y,z
+  -y,-x,z
+  y,x,z
+  x+1/2,y+1/2,z+1/2
+  -x+1/2,-y+1/2,z+1/2
+  -y+1/2,x+1/2,z+1/2
+  y+1/2,-x+1/2,z+1/2
+  -x+1/2,y+1/2,-z+1/2
+  x+1/2,-y+1/2,-z+1/2
+  y+1/2,x+1/2,-z+1/2
+  -y+1/2,-x+1/2,-z+1/2
+  -x+1/2,-y+1/2,-z+1/2
+  x+1/2,y+1/2,-z+1/2
+  y+1/2,-x+1/2,-z+1/2
+  -y+1/2,x+1/2,-z+1/2
+  x+1/2,-y+1/2,z+1/2
+  -x+1/2,y+1/2,z+1/2
+  -y+1/2,-x+1/2,z+1/2
+  y+1/2,x+1/2,z+1/2
+_cell_length_a                    2.8700
+_cell_length_b                    2.8700
+_cell_length_c                    5.3300
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Y1     Y     0.00000   0.00000   0.00000   0.00000  Uiso   1.00
+H2     H     0.50000   0.00000   0.75000   0.00000  Uiso   1.00
+H3     H     0.00000   0.00000   0.63000   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+Y1     Y1      2.870   1_655 S
+Y1     Y1      2.870   1_455 S
+Y1     Y1      2.870   1_565 S
+Y1     Y1      2.870   1_545 S
+Y1     Y1      3.350   17    S
+Y1     Y1      3.350   17_445 S
+Y1     Y1      3.350   17_455 S
+Y1     Y1      3.350   17_545 S
+Y1     Y1      3.350   17_454 S
+Y1     Y1      3.350   17_544 S
+Y1     Y1      3.350   17_554 S
+Y1     Y1      3.350   17_444 S
+Y1     H2      1.958   7_546 S
+Y1     H2      1.958   7_556 S
+Y1     H2      1.958   5_656 S
+Y1     H2      1.958   5_556 S
+Y1     H2      1.958   3_544 S
+Y1     H2      1.958   3_554 S
+Y1     H2      1.958   1_454 S
+Y1     H2      1.958   1_554 S
+Y1     H3      2.144   17_444 S
+Y1     H3      2.144   17_554 S
+Y1     H3      2.144   17_544 S
+Y1     H3      2.144   17_454 S
+Y1     H3      2.144   21_545 S
+Y1     H3      2.144   21_455 S
+Y1     H3      2.144   21_445 S
+Y1     H3      2.144   21    S
+Y1     H3      1.972   1_554 S
+Y1     H3      1.972   5_556 S
+H2     Y1      1.958   17    S
+H2     Y1      1.958   17_545 S
+H2     Y1      1.958   1_656 S
+H2     Y1      1.958   1_556 S
+H3     Y1      2.144   17    S
+H3     Y1      2.144   17_445 S
+H3     Y1      2.144   17_455 S
+H3     Y1      2.144   17_545 S
+H3     Y1      1.972   1_556 S

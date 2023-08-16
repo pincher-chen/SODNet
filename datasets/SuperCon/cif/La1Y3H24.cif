@@ -1,0 +1,130 @@
+data_3D\Atomistic
+_audit_creation_date              2022-02-09
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'CMMM'
+_symmetry_Int_Tables_number       65
+_symmetry_cell_setting            orthorhombic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -x,-y,z
+  -x,y,-z
+  x,-y,-z
+  -x,-y,-z
+  x,y,-z
+  x,-y,z
+  -x,y,z
+  x+1/2,y+1/2,z
+  -x+1/2,-y+1/2,z
+  -x+1/2,y+1/2,-z
+  x+1/2,-y+1/2,-z
+  -x+1/2,-y+1/2,-z
+  x+1/2,y+1/2,-z
+  x+1/2,-y+1/2,z
+  -x+1/2,y+1/2,z
+_cell_length_a                    3.6210
+_cell_length_b                    5.0130
+_cell_length_c                    10.2390
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+La1    La    0.00000   0.00000   0.00000   0.00000  Uiso   1.00
+Y2     Y     0.00000   0.50000   0.25606   0.00000  Uiso   1.00
+H3     H     0.25000   0.25000   0.13624   0.00000  Uiso   1.00
+H4     H     0.25000   0.25000   0.37798   0.00000  Uiso   1.00
+Y5     Y     0.00000   0.00000   0.50000   0.00000  Uiso   1.00
+H6     H     0.00000   0.11988   0.19483   0.00000  Uiso   1.00
+H7     H     0.00000   0.12176   0.31540   0.00000  Uiso   1.00
+H8     H     0.00000   0.37658   0.43798   0.00000  Uiso   1.00
+H9     H     0.00000   0.38314   0.07100   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+Y2     Y2      3.621   1_655 S
+Y2     Y2      3.621   1_455 S
+Y2     Y2      3.092   9_545 S
+Y2     Y2      3.092   9_455 S
+Y2     Y2      3.092   9     S
+Y2     Y2      3.092   9_445 S
+Y2     Y5      3.539   .     S
+Y2     Y5      3.539   1_565 S
+Y2     Y5      3.085   9     S
+Y2     Y5      3.085   9_455 S
+Y2     H6      2.006   .     S
+Y2     H6      2.006   2_565 S
+Y2     H6      2.008   9_455 S
+Y2     H6      2.008   10    S
+Y2     H6      2.008   10_455 S
+Y2     H6      2.008   9     S
+Y2     H7      2.005   9_455 S
+Y2     H7      2.005   10    S
+Y2     H7      2.005   10_455 S
+Y2     H7      2.005   9     S
+Y2     H7      1.991   2_565 S
+Y2     H8      1.963   .     S
+Y2     H8      1.963   2_565 S
+Y2     H9      1.983   .     S
+Y2     H9      1.983   2_565 S
+Y2     H3      1.974   .     S
+Y2     H3      1.974   2_565 S
+Y2     H3      1.974   7_565 S
+Y2     H3      1.974   8     S
+Y2     H4      1.987   2_565 S
+Y2     H4      1.987   8     S
+Y2     H4      1.987   7_565 S
+H3     Y2      1.974   9_545 S
+H4     Y2      1.987   9_545 S
+H4     Y5      1.988   9     S
+Y5     Y5      3.621   1_655 S
+Y5     Y5      3.621   1_455 S
+Y5     Y2      3.539   3_556 S
+Y5     Y2      3.539   3_546 S
+Y5     Y2      3.539   1_545 S
+Y5     Y2      3.085   11_546 S
+Y5     Y2      3.085   11_446 S
+Y5     Y2      3.085   9_445 S
+Y5     Y2      3.085   9_545 S
+Y5     Y5      3.092   9     S
+Y5     Y5      3.092   9_445 S
+Y5     Y5      3.092   9_455 S
+Y5     Y5      3.092   9_545 S
+Y5     H7      1.986   .     S
+Y5     H7      1.986   2     S
+Y5     H7      1.986   3_556 S
+Y5     H7      1.986   4_556 S
+Y5     H8      2.016   9_445 S
+Y5     H8      2.016   10    S
+Y5     H8      2.016   11_546 S
+Y5     H8      2.016   12_456 S
+Y5     H8      2.016   12_556 S
+Y5     H8      2.016   11_446 S
+Y5     H8      2.016   10_455 S
+Y5     H8      2.016   9_545 S
+Y5     H8      1.992   2     S
+Y5     H8      1.992   3_556 S
+Y5     H8      1.992   4_556 S
+Y5     H4      1.988   2     S
+Y5     H4      1.988   4_556 S
+Y5     H4      1.988   3_556 S
+Y5     H4      1.988   6_556 S
+Y5     H4      1.988   5_556 S
+Y5     H4      1.988   8     S
+Y5     H4      1.988   7     S
+H6     Y2      2.008   9_545 S
+H6     Y2      2.008   9_445 S
+H7     Y2      2.005   9_545 S
+H7     Y2      2.005   9_445 S
+H8     Y5      2.016   9     S
+H8     Y5      2.016   9_455 S

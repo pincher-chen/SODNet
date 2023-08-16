@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_La2Ce0.3Nd1.7Cu2O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.97820000
+_cell_length_b   3.97820000
+_cell_length_c   12.28990000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2Ce0.3Nd1.7Cu2O8
+_chemical_formula_sum   'La2 Ce0.3 Nd1.7 Cu2 O8'
+_cell_volume   194.50088209
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  La3+  3.0
+  Ce3+  3.0
+  Nd3+  3.0
+  Cu2+  2.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La3+  La0  1  0.00000000  0.00000000  0.64730000  0.5
+  Ce3+  Ce1  1  0.00000000  0.00000000  0.64730000  0.075
+  Nd3+  Nd2  1  0.00000000  0.00000000  0.64730000  0.425
+  La3+  La3  1  0.00000000  0.00000000  0.35270000  0.5
+  Ce3+  Ce4  1  0.00000000  0.00000000  0.35270000  0.075
+  Nd3+  Nd5  1  0.00000000  0.00000000  0.35270000  0.425
+  La3+  La6  1  0.50000000  0.50000000  0.14730000  0.5
+  Ce3+  Ce7  1  0.50000000  0.50000000  0.14730000  0.075
+  Nd3+  Nd8  1  0.50000000  0.50000000  0.14730000  0.425
+  La3+  La9  1  0.50000000  0.50000000  0.85270000  0.5
+  Ce3+  Ce10  1  0.50000000  0.50000000  0.85270000  0.075
+  Nd3+  Nd11  1  0.50000000  0.50000000  0.85270000  0.425
+  Cu2+  Cu12  1  0.00000000  0.00000000  0.00000000  1.0
+  Cu2+  Cu13  1  0.50000000  0.50000000  0.50000000  1.0
+  O2-  O14  1  0.50000000  0.00000000  0.00000000  1.0
+  O2-  O15  1  0.00000000  0.50000000  0.00000000  1.0
+  O2-  O16  1  0.00000000  0.50000000  0.50000000  1.0
+  O2-  O17  1  0.50000000  0.00000000  0.50000000  1.0
+  O2-  O18  1  0.50000000  0.00000000  0.75000000  1.0
+  O2-  O19  1  0.00000000  0.50000000  0.75000000  1.0
+  O2-  O20  1  0.50000000  0.00000000  0.25000000  1.0
+  O2-  O21  1  0.00000000  0.50000000  0.25000000  1.0

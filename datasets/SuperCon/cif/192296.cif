@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_La4Si3.992Pt4.008
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.25020000
+_cell_length_b   4.25020000
+_cell_length_c   14.52500000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La4Si3.992Pt4.008
+_chemical_formula_sum   'La4 Si3.992 Pt4.008'
+_cell_volume   262.38250558
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  La0+  0.0
+  Si0+  0.0
+  Pt0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La0+  La0  1  0.00000000  0.50000000  0.83050000  1.0
+  La0+  La1  1  0.00000000  0.00000000  0.58050000  1.0
+  La0+  La2  1  0.50000000  0.00000000  0.33050000  1.0
+  La0+  La3  1  0.50000000  0.50000000  0.08050000  1.0
+  Si0+  Si4  1  0.00000000  0.50000000  0.25000000  0.983
+  Pt0+  Pt5  1  0.00000000  0.50000000  0.25000000  0.017
+  Si0+  Si6  1  0.00000000  0.00000000  0.00000000  0.983
+  Pt0+  Pt7  1  0.00000000  0.00000000  0.00000000  0.017
+  Si0+  Si8  1  0.50000000  0.00000000  0.75000000  0.983
+  Pt0+  Pt9  1  0.50000000  0.00000000  0.75000000  0.017
+  Si0+  Si10  1  0.50000000  0.50000000  0.50000000  0.983
+  Pt0+  Pt11  1  0.50000000  0.50000000  0.50000000  0.017
+  Si0+  Si12  1  0.00000000  0.50000000  0.41700000  0.015
+  Pt0+  Pt13  1  0.00000000  0.50000000  0.41700000  0.985
+  Si0+  Si14  1  0.00000000  0.00000000  0.16700000  0.015
+  Pt0+  Pt15  1  0.00000000  0.00000000  0.16700000  0.985
+  Si0+  Si16  1  0.50000000  0.00000000  0.91700000  0.015
+  Pt0+  Pt17  1  0.50000000  0.00000000  0.91700000  0.985
+  Si0+  Si18  1  0.50000000  0.50000000  0.66700000  0.015
+  Pt0+  Pt19  1  0.50000000  0.50000000  0.66700000  0.985

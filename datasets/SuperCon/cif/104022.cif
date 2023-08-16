@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_V1.5Ga0.5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.04720000
+_cell_length_b   3.04720000
+_cell_length_c   3.04720000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   V1.5Ga0.5
+_chemical_formula_sum   'V1.5 Ga0.5'
+_cell_volume   28.29455571
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  V0+  0.0
+  Ga0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V0+  V0  1  0.00000000  0.00000000  0.00000000  0.75
+  Ga0+  Ga1  1  0.00000000  0.00000000  0.00000000  0.25
+  V0+  V2  1  0.50000000  0.50000000  0.50000000  0.75
+  Ga0+  Ga3  1  0.50000000  0.50000000  0.50000000  0.25

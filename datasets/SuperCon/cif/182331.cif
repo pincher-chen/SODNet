@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_Sr0.66Ca1.34Fe4As4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.90660000
+_cell_length_b   3.90660000
+_cell_length_c   11.98800000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr0.66Ca1.34Fe4As4
+_chemical_formula_sum   'Sr0.66 Ca1.34 Fe4 As4'
+_cell_volume   182.95514444
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Sr2+  2.0
+  Ca2+  2.0
+  Fe2+  2.0
+  As3-  -3.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr2+  Sr0  1  0.00000000  0.00000000  0.00000000  0.33
+  Ca2+  Ca1  1  0.00000000  0.00000000  0.00000000  0.67
+  Sr2+  Sr2  1  0.50000000  0.50000000  0.50000000  0.33
+  Ca2+  Ca3  1  0.50000000  0.50000000  0.50000000  0.67
+  Fe2+  Fe4  1  0.00000000  0.50000000  0.75000000  1.0
+  Fe2+  Fe5  1  0.50000000  0.00000000  0.75000000  1.0
+  Fe2+  Fe6  1  0.00000000  0.50000000  0.25000000  1.0
+  Fe2+  Fe7  1  0.50000000  0.00000000  0.25000000  1.0
+  As3-  As8  1  0.00000000  0.00000000  0.63577000  1.0
+  As3-  As9  1  0.00000000  0.00000000  0.36423000  1.0
+  As3-  As10  1  0.50000000  0.50000000  0.13577000  1.0
+  As3-  As11  1  0.50000000  0.50000000  0.86423000  1.0

@@ -1,0 +1,59 @@
+# generated using pymatgen
+data_DyB4(IrRh)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.34000000
+_cell_length_b   5.34000000
+_cell_length_c   7.42000000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyB4(IrRh)2
+_chemical_formula_sum   'Dy2 B8 Ir4 Rh4'
+_cell_volume   211.58575200
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Dy0+  0.0
+  B0+  0.0
+  Ir0+  0.0
+  Rh0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy0+  Dy0  1  0.75000000  0.25000000  0.25000000  1.0
+  Dy0+  Dy1  1  0.25000000  0.75000000  0.75000000  1.0
+  B0+  B2  1  0.57500000  0.75000000  0.40000000  1.0
+  B0+  B3  1  0.92500000  0.75000000  0.40000000  1.0
+  B0+  B4  1  0.75000000  0.57500000  0.90000000  1.0
+  B0+  B5  1  0.75000000  0.92500000  0.90000000  1.0
+  B0+  B6  1  0.42500000  0.25000000  0.60000000  1.0
+  B0+  B7  1  0.07500000  0.25000000  0.60000000  1.0
+  B0+  B8  1  0.25000000  0.42500000  0.10000000  1.0
+  B0+  B9  1  0.25000000  0.07500000  0.10000000  1.0
+  Ir0+  Ir10  1  0.00200000  0.75000000  0.11500000  0.5
+  Rh0+  Rh11  1  0.00200000  0.75000000  0.11500000  0.5
+  Ir0+  Ir12  1  0.49800000  0.75000000  0.11500000  0.5
+  Rh0+  Rh13  1  0.49800000  0.75000000  0.11500000  0.5
+  Ir0+  Ir14  1  0.75000000  0.00200000  0.61500000  0.5
+  Rh0+  Rh15  1  0.75000000  0.00200000  0.61500000  0.5
+  Ir0+  Ir16  1  0.75000000  0.49800000  0.61500000  0.5
+  Rh0+  Rh17  1  0.75000000  0.49800000  0.61500000  0.5
+  Ir0+  Ir18  1  0.99800000  0.25000000  0.88500000  0.5
+  Rh0+  Rh19  1  0.99800000  0.25000000  0.88500000  0.5
+  Ir0+  Ir20  1  0.50200000  0.25000000  0.88500000  0.5
+  Rh0+  Rh21  1  0.50200000  0.25000000  0.88500000  0.5
+  Ir0+  Ir22  1  0.25000000  0.99800000  0.38500000  0.5
+  Rh0+  Rh23  1  0.25000000  0.99800000  0.38500000  0.5
+  Ir0+  Ir24  1  0.25000000  0.50200000  0.38500000  0.5
+  Rh0+  Rh25  1  0.25000000  0.50200000  0.38500000  0.5

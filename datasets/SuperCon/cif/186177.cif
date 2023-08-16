@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_NaC2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.61300000
+_cell_length_b   4.61300000
+_cell_length_c   4.61300000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaC2
+_chemical_formula_sum   'Na4 C8'
+_cell_volume   98.16357440
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Na0+  0.0
+  C0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na0+  Na0  1  0.37500000  0.87500000  0.62500000  1.0
+  Na0+  Na1  1  0.62500000  0.37500000  0.87500000  1.0
+  Na0+  Na2  1  0.87500000  0.62500000  0.37500000  1.0
+  Na0+  Na3  1  0.12500000  0.12500000  0.12500000  1.0
+  C0+  C4  1  0.64860000  0.14860000  0.35140000  1.0
+  C0+  C5  1  0.35140000  0.64860000  0.14860000  1.0
+  C0+  C6  1  0.14860000  0.35140000  0.64860000  1.0
+  C0+  C7  1  0.85140000  0.85140000  0.85140000  1.0
+  C0+  C8  1  0.10140000  0.60140000  0.89860000  1.0
+  C0+  C9  1  0.60140000  0.89860000  0.10140000  1.0
+  C0+  C10  1  0.89860000  0.10140000  0.60140000  1.0
+  C0+  C11  1  0.39860000  0.39860000  0.39860000  1.0
