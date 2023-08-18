@@ -137,10 +137,11 @@ def main(args):
 
     _log = FileLogger(is_master=is_main_process, is_rank0=is_main_process, output_dir=args.output_dir)
     _log.info(args)
-    best_err = []
     root_path = os.path.dirname(os.path.abspath(__file__))
     save_path = os.path.join(root_path+'/best_models/')
-    
+
+    if not os.path.exists(save_path):
+        os.mkdir(save_path)
 
     ''' Dataset '''
     
@@ -214,7 +215,7 @@ def main(args):
     ''' Optimizer and LR Scheduler '''
     optimizer = create_optimizer(args=args, model=model)
     lr_scheduler, _ = create_scheduler(args, optimizer)
-    criterion = None #torch.nn.MSELoss() #torch.nn.L1Loss() # torch.nn.MSELoss() 
+    criterion = None
     if args.loss == 'l1':
         criterion = torch.nn.L1Loss()
     elif args.loss == 'l2':
@@ -249,8 +250,7 @@ def main(args):
     if args.compute_stats:
         compute_stats(train_loader, max_radius=args.radius, logger=_log, print_freq=args.print_freq)
         return
-    
-    #best_epoch, best_train_err, best_val_err, best_test_err = 0, float('inf'), float(0), float('inf')
+
     best_epoch, best_train_err, best_val_err, best_test_err = 0, float('inf'), float('inf'), float('inf')
     best_ema_epoch, best_ema_val_err, best_ema_test_err = 0, 0, float('inf')
     

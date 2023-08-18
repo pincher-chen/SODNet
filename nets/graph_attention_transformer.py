@@ -1,5 +1,4 @@
 import torch
-#import torch.nn as nn
 from torch_cluster import radius_graph
 from torch_scatter import scatter
 
@@ -23,15 +22,13 @@ from .fast_activation import Activation, Gate
 from .drop import EquivariantDropout, EquivariantScalarsDropout, GraphDropPath
 from .gaussian_rbf import GaussianRadialBasisLayer
 
-# for bessel radial basis
-#from ocpmodels.models.gemnet.layers.radial_basis import RadialBasis
 torch.set_printoptions(profile='full')
 
 _RESCALE = True
 _USE_BIAS = True
 
 _MAX_ATOM_TYPE = 100
-_AVG_NUM_NODES = 29.891087392943284#18.03065905448718
+_AVG_NUM_NODES = 29.891087392943284
 _AVG_DEGREE = 34.29242574467496 
   
 
@@ -642,7 +639,6 @@ class TransBlock(torch.nn.Module):
         node_output = node_input
         node_features = node_input
         node_features = self.norm_1(node_features, batch=batch)
-        #norm_1_output = node_features
         node_features = self.ga(node_input=node_features, 
             node_attr=node_attr, 
             edge_src=edge_src, edge_dst=edge_dst, 
@@ -655,7 +651,6 @@ class TransBlock(torch.nn.Module):
         
         node_features = node_output
         node_features = self.norm_2(node_features, batch=batch)
-        #node_features = self.concat_norm_output(norm_1_output, node_features)
         node_features = self.ffn(node_features, node_attr)
         if self.ffn_shortcut is not None:
             node_output = self.ffn_shortcut(node_output, node_attr)

@@ -1,6 +1,6 @@
-from pymatgen.analysis.local_env import CrystalNN,MinimumDistanceNN
 import numpy as np
 import torch
+from pymatgen.analysis.local_env import CrystalNN,MinimumDistanceNN
 
 #defining periodic graph within cutoff.
 
@@ -57,7 +57,6 @@ def get_radius_graph_knn(structure, cutoff, max_neighbors):
             max_neigh_index_t = np.array(max_neigh_index_t)
             max_neigh_index = np.append(max_neigh_index,max_neigh_index_t)
 
-    #max_neigh_index=max_neigh_index.tolist()
     max_neigh_index=max_neigh_index.flatten().astype(int)
     max_neigh_index=[max_neigh_index[i] for i in range(len(max_neigh_index))]
 

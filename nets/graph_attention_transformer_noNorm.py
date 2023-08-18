@@ -1,5 +1,4 @@
 import torch
-#import torch.nn as nn
 from torch_cluster import radius_graph
 from torch_scatter import scatter
 
@@ -23,8 +22,6 @@ from .fast_activation import Activation, Gate
 from .drop import EquivariantDropout, EquivariantScalarsDropout, GraphDropPath
 from .gaussian_rbf import GaussianRadialBasisLayer
 
-# for bessel radial basis
-#from ocpmodels.models.gemnet.layers.radial_basis import RadialBasis
 torch.set_printoptions(profile='full')
 
 _RESCALE = True
@@ -33,7 +30,6 @@ _USE_BIAS = True
 _MAX_ATOM_TYPE = 100
 _AVG_NUM_NODES = 29.891087392943284
 _AVG_DEGREE = 34.29242574467496 
-  
 
 def get_norm_layer(norm_type):
     if norm_type == 'graph':

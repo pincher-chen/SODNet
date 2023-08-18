@@ -1,17 +1,9 @@
 import sys
 sys.path.append(r"./")
-from pymatgen.core.structure import Structure
-import sys
-import pprint as pp
-import re
-import json
 import os
-import numpy as np 
-#import torch
-
+from pymatgen.core.structure import Structure
 
 def identity_type(cif):
-
     crystal = Structure.from_file(cif)
     crystal = crystal.get_reduced_structure()
     crystal = crystal.get_primitive_structure()
@@ -28,7 +20,6 @@ def identity_type(cif):
             struc_type = 'sd'
         else:
             struc_type = 'pd'
-
     return struc_type
 
 

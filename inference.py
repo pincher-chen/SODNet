@@ -1,6 +1,5 @@
 import torch
 import os
-import tqdm
 import argparse
 import sys
 import json
@@ -10,7 +9,6 @@ from datasets.SuperCon import SC
 from features.process_data import splitdata,get_Path
 from features.identity_disorder import classify
 
-
 parser = argparse.ArgumentParser('Predicting value..', add_help=False)
 parser.add_argument("--data_path", type=str, default='datasets/SuperCon')
 parser.add_argument('--model', type=str, default='best_models/')
@@ -18,10 +16,7 @@ parser.add_argument('--feature_type', type=str, default='crystalnet')
 parser.add_argument('--order_type', type=str, default='all')
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-
 pred_list= []
-
-
 
 def get_prediction(model_path,test):
 
@@ -112,8 +107,8 @@ if __name__ == "__main__":
         pred_list.append(pred)
         fold_id += 1
 
-
     with open('pred.json','w') as f:
         json.dump(pred_list,f)
+    print('Done')
         
 
