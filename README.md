@@ -1,10 +1,10 @@
 # SODNet
 
-Superconductor.......
+A transformer-based GNN model for learning superconductivity from ordered and disordered crystal structures.
 
 ## Requirement
 
-You can refer to the environment installation in Equiformer, some important packages are as follows:
+The important packages are presented as follows:
 
 ```
 e3nn                  0.4.4
