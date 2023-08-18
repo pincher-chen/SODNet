@@ -4,10 +4,8 @@ from timm.utils import accuracy, ModelEmaV2, dispatch_clip_grad
 import time
 from torch_cluster import radius_graph
 import torch_geometric
-from torchmetrics import R2Score
 
 ModelEma = ModelEmaV2
-
 
 class AverageMeter:
     """Computes and stores the average and current value"""
@@ -40,21 +38,16 @@ def train_one_data(model: torch.nn.Module, criterion: torch.nn.Module,
     model.train()
     criterion.train()
 
-    loss_metric = AverageMeter()
     mae_metric = AverageMeter()
-    r2_metric = AverageMeter()
-
-
     start_time = time.perf_counter()
 
     task_mean = norm_factor[0] #model.task_mean
     task_std  = norm_factor[1] #model.task_std
 
-
     with amp_autocast():
         pred = model(batch=batch,
             edge_occu=edge_occu,f_in=x, edge_src=edge_src, edge_dst=edge_dst,edge_attr=edge_attr,
-            edge_vec=edge_vec, edge_num = edge_num)
+            edge_vec=edge_vec, edge_num=edge_num)
 
         pred = pred.squeeze()
         loss = criterion(pred, (y - task_mean) / task_std)
@@ -71,12 +64,7 @@ def train_one_data(model: torch.nn.Module, criterion: torch.nn.Module,
     y_true = y
 
     mae_metric.update(torch.mean(torch.abs(y_pred-y_true)).item(), n=1)
-    #r2score = R2Score().to(device)
-    #r2_metric.update((r2score(y_pred,y_true)),n=pred.shape[0])
-
     return mae_metric.avg
-
-
 
 def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
                     norm_factor: list, 
@@ -95,15 +83,12 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
     
     loss_metric = AverageMeter()
     mae_metric = AverageMeter()
-    r2_metric = AverageMeter()
-
 
     start_time = time.perf_counter()
     
     task_mean = norm_factor[0] #model.task_mean
     task_std  = norm_factor[1] #model.task_std
 
-    
     for step, data in enumerate(data_loader):
         data = data.to(device)
         with amp_autocast():
@@ -129,9 +114,6 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
         y_true = data.y[:, target]
 
         mae_metric.update(torch.mean(torch.abs(y_pred-y_true)).item(), n=pred.shape[0])
-        #r2score = R2Score().to(device)
-        #r2_metric.update((r2score(y_pred,y_true)),n=pred.shape[0])
-
 
         if model_ema is not None:
             model_ema.update(model)
@@ -150,9 +132,7 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
                 )
             info_str += 'lr={:.2e}'.format(optimizer.param_groups[0]["lr"])
             logger.info(info_str)
-        
     return mae_metric.avg
-
 
 def evaluate(model, norm_factor, target, data_loader, device, amp_autocast=None, 
     print_freq=100, logger=None):
@@ -161,7 +141,6 @@ def evaluate(model, norm_factor, target, data_loader, device, amp_autocast=None,
     
     loss_metric = AverageMeter()
     mae_metric = AverageMeter()
-    r2_metric = AverageMeter()
     criterion = torch.nn.L1Loss()
     criterion.eval()
     
@@ -184,9 +163,6 @@ def evaluate(model, norm_factor, target, data_loader, device, amp_autocast=None,
             y_true = data.y[:, target]
                 
             mae_metric.update(torch.mean(torch.abs(y_pred-y_true)).item(), n=pred.shape[0])
-            #r2score = R2Score().to(device)
-            #r2_metric.update((r2score(y_pred,y_true)),n=pred.shape[0])
-
 
     return mae_metric.avg, loss_metric.avg
 
