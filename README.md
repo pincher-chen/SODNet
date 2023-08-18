@@ -26,7 +26,7 @@ tqdm                  4.65.0
 
 ## Dataset
 
-The dataset is undered `datasets/SuperCon/cif/` and the tc values are saved in `datasets/SuperCon/df_all_data1202.csv`.
+The dataset is undered `datasets/SuperCon/cif/` and the Tc values are saved in `datasets/SuperCon/df_all_data1202.csv`.
 
 ## Example
 
@@ -52,12 +52,12 @@ If you want to run all the folds at once, you can use the following command:
     sh scripts/SuperCon/train_all.sh
 ```
 
-
 ## Inference
+
 After training, all models will be saved in `best_models/`.
 You can use these `*_save.pt` files for inference with the following commands:
 
 ```
     sh scripts/infer/infer.sh
 ```
-The results of inference will be saved in `pred.json`
+The results of inference will be saved in `pred.json`.
