@@ -1,11 +1,9 @@
 import argparse
 import datetime
 import itertools
-import pickle
 import subprocess
 import time
 import torch
-import json
 import numpy as np
 from torch_geometric.loader import DataLoader
 torch.set_default_dtype(torch.float32)
@@ -36,9 +34,7 @@ import utils
 import warnings
 
 warnings.filterwarnings('ignore')
-
 ModelEma = ModelEmaV2
-
 
 def get_args_parser():
     parser = argparse.ArgumentParser('Training equivariant networks', add_help=False)
@@ -134,7 +130,6 @@ def main(args):
 
     utils.init_distributed_mode(args)
     is_main_process = (args.rank == 0)
-
     _log = FileLogger(is_master=is_main_process, is_rank0=is_main_process, output_dir=args.output_dir)
     _log.info(args)
     root_path = os.path.dirname(os.path.abspath(__file__))
@@ -158,15 +153,13 @@ def main(args):
     else:
         print('please input the currect order_type') 
 
-    
     fold_num = 10
     train_idx,valid_idx,test_idx = splitdata(data_source,fold_num,args.run_fold)
     
     train = [data_source[i] for i in train_idx]
     valid = [data_source[i] for i in valid_idx]
     test = [data_source[i] for i in test_idx]
-    
-            
+
     train_dataset = SC(args.data_path,'train', train,args.run_fold, feature_type=args.feature_type)
     val_dataset  = SC(args.data_path, 'valid',valid,args.run_fold, feature_type=args.feature_type)
     test_dataset = SC(args.data_path, 'test',test,args.run_fold, feature_type=args.feature_type)
@@ -184,7 +177,6 @@ def main(args):
     np.random.seed(args.seed)
     
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    
     ''' Network '''
     create_model = model_entrypoint(args.model_name)
     model = create_model(irreps_in=args.input_irreps, 
@@ -321,7 +313,6 @@ def main(args):
             info_str = 'Best EMA -- epoch={}, val MAE: {:.5f}, test MAE: {:.5f}\n'.format(
                         best_ema_epoch, best_ema_val_err, best_ema_test_err)
             _log.info(info_str)
-
     
     all_err = 'fold_{} test MAE:{:.5f}'.format(str(args.run_fold),epoch_error[-1])
     _log.info(all_err)

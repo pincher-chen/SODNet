@@ -28,7 +28,6 @@ def get_radius_graph_knn(structure, cutoff, max_neighbors):
                 radius = center_max_radius + neigh_max_radius
             except:
                 radius = 0
-
             if np.array(atom['site'],dtype=object)[1] < radius:
                 continue
             edge_src += [start]

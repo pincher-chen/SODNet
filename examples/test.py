@@ -1,24 +1,21 @@
 import sys 
 sys.path.append("..")
-
 import numpy as np
 import math
 import torch
 import torch.optim as optim
-import nets
-import e3nn
-
+import warnings
 
 from contextlib import suppress
 from nets import model_entrypoint
 from pymatgen.core import Structure
-from optim_factory import create_optimizer,add_weight_decay
 from features.get_radius_graph_cutoff_knn import get_radius_graph_knn
 from features.atom_feat import AtomCustomJSONInitializer
 from features.identity_disorder import identity_type
 from inference import get_one_prediction
 from engine import train_one_data
 
+warnings.filterwarnings('ignore')
 device = torch.device('cuda')
 
 class Unittest():
@@ -30,9 +27,7 @@ class Unittest():
         self.test_identity_disorder()
 
     def test_process(self):
-
         ari = AtomCustomJSONInitializer('../conf/atom_embedding.json')
-
         crystal = Structure.from_file(self.cif)
         crystal = crystal.get_reduced_structure()
         crystal = crystal.get_primitive_structure()
@@ -62,12 +57,11 @@ class Unittest():
         edge_src, edge_dst, edge_vec, distances = get_radius_graph_knn(crystal,r_cut,max_neighbors)
 
         edge_occu = []
-
         for src,dst in zip(edge_src,edge_dst):
             occu = occu_crystal[src]*occu_crystal[dst]
             edge_occu.append(occu)
-        distances = np.array(distances)
 
+        distances = np.array(distances)
         edge_num = [len(edge_src)]
         self.edge_num = torch.tensor(edge_num,dtype=torch.long,device=device)
         self.edge_src = torch.tensor(edge_src,dtype=torch.long,device=device)
@@ -96,14 +90,11 @@ class Unittest():
             x=self.x,y=self.y,batch=self.batch,edge_occu=self.edge_occu,edge_src=self.edge_src,
             edge_dst=self.edge_dst,edge_vec=self.edge_vec,edge_attr=self.edge_attr,edge_num=self.edge_num,
             device=device, epoch=1,optimizer=optimizer,amp_autocast = suppress)
-        
-
 
     def test_predict(self):
         model = ('../best_models/1_save.pt')
         pred = get_one_prediction(model,self.x,self.batch,self.edge_occu,
                                   self.edge_src,self.edge_dst,self.edge_vec,self.edge_attr,self.edge_num)
-
 
     def test_identity_disorder(self):
         stu_type = identity_type(self.cif)

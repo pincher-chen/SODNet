@@ -26,8 +26,7 @@ def identity_type(cif):
 def classify(dataset):  
     order_data,dis_data = [],[]
     for cif_file in dataset:
-        stu_type=identity_type(cif_file)    
-  
+        stu_type=identity_type(cif_file)
         if stu_type == "order":
             order_data.append(cif_file)
         if stu_type == "sd" or stu_type == "order":

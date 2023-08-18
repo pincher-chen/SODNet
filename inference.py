@@ -21,13 +21,10 @@ pred_list= []
 def get_prediction(model_path,test):
 
     results = []
-    all_data = []
 
     model = torch.load(model_path)
     model = model.to(device)
     model.eval()
-    
-    
     test_data = SC(args.data_path,'test', test,fold_id, feature_type=args.feature_type)
 
     test_loader = DataLoader(
@@ -59,7 +56,6 @@ def get_one_prediction(model_path,x,batch,
                        edge_dst,edge_vec,
                        edge_attr,edge_num):
 
-
     model = torch.load(model_path)
     model = model.to(device)
     model.eval()
@@ -69,7 +65,6 @@ def get_one_prediction(model_path,x,batch,
                      f_in=x,edge_src=edge_src,edge_dst=edge_dst,
                      edge_vec=edge_vec,edge_attr=edge_attr,edge_num=edge_num)
         pred = pred.squeeze()
-
         pred = pred.detach() * model.task_std + model.task_mean
         pred = math.exp(pred)
 
@@ -78,7 +73,6 @@ def get_one_prediction(model_path,x,batch,
 if __name__ == "__main__":
     args = parser.parse_args(sys.argv[1:])
     data_source = get_Path(args.data_path+'/cif/')
-
 
     if args.order_type == 'order':
         order_data,disorder_data = classify(data_source)
@@ -90,15 +84,13 @@ if __name__ == "__main__":
         data_source = data_source
     else:
         print('please input the currect order_type')
-    
-    
+
     fold_num = 10
     fold_id = 1
     all_model = get_Path(args.model)
     test_list = [] 
     for fold_idx in range(1,fold_num+1):
         train_i,valid_i,test_i = splitdata(data_source,fold_num,fold_idx)
-
         test_data = [data_source[i] for i in test_i]
         test_list.append(test_data)
 

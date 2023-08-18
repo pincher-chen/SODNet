@@ -1,5 +1,4 @@
 import numpy as np
-import json
 import os
 
 def get_Path(rootDir):
@@ -8,9 +7,7 @@ def get_Path(rootDir):
     for file in files:
         path = rootDir+file
         all_path.append(path)
-
     return all_path
-
 
 def splitdata(dataset,fold,index):
     length = len(dataset)

@@ -7,7 +7,6 @@ import math
 
 from io import StringIO
 from pymatgen.core.structure import Structure
-from pymatgen.analysis.local_env import CrystalNN,MinimumDistanceNN
 from features.get_radius_graph_cutoff_knn import get_radius_graph_knn
 from features.atom_feat import AtomCustomJSONInitializer
 from torch_geometric.data import Data, InMemoryDataset, download_url
@@ -87,20 +86,18 @@ class SC(InMemoryDataset):
                     total += occup
                 atom_features.append(emb)
                 occu_crystal.append(total)
-               
 
             x = torch.tensor(atom_features).reshape((int(num_nodes), -1))
             edge_src, edge_dst, edge_vec, distances = get_radius_graph_knn(crystal,r_cut,max_neighbors)
             
             edge_occu = []
-            
             for src,dst in zip(edge_src,edge_dst):
                  occu = occu_crystal[src]*occu_crystal[dst]
                  edge_occu.append(occu)
             
             distances = np.array(distances)
             name = file_name
-             
+
             #build atom pairs within cutoff
             edge_num = len(edge_src)
             edge_num = torch.tensor(edge_num,dtype=torch.long)
@@ -110,8 +107,6 @@ class SC(InMemoryDataset):
             
             edge_vec = torch.tensor(edge_vec.astype(float), dtype=torch.float)
             edge_attr = torch.tensor(distances, dtype=torch.float)
-
-
             data = Data(x=x,edge_occu=edge_occu,edge_src=edge_src, edge_dst=edge_dst, 
                 edge_attr=edge_attr,y=y, name=name, index=i,
                 edge_vec = edge_vec, edge_num=edge_num)
