@@ -1,23 +1,20 @@
-from typing import List
-from features.atom_feat import AtomCustomJSONInitializer
-from pymatgen.core.structure import Structure
 import numpy as np
 import json
-from pymatgen.analysis.local_env import CrystalNN,MinimumDistanceNN
 import os
+import os.path as osp
 import torch
-from io import StringIO
 import math
 
+from io import StringIO
+from pymatgen.core.structure import Structure
+from pymatgen.analysis.local_env import CrystalNN,MinimumDistanceNN
 from features.get_radius_graph_cutoff_knn import get_radius_graph_knn
-
+from features.atom_feat import AtomCustomJSONInitializer
 from torch_geometric.data import Data, InMemoryDataset, download_url
-import os.path as osp
 from tqdm import tqdm 
 
 
 class SC(InMemoryDataset):
-    
 
     def __init__(self, root, split,fold_data,fold_id,feature_type="crystalnet", fixed_size_split=True):
         assert feature_type in ["crystalnet"], "Please use valid features"
@@ -39,12 +36,10 @@ class SC(InMemoryDataset):
         mean = float(torch.mean(y))
         mad = float(torch.mean(torch.abs(y - mean))) #median absolute deviation
         return mean, mad
-    
 
     def mean(self, target: int) -> float:
         y = torch.cat([self.get(i).y for i in range(len(self))], dim=0)
         return float(y[:, target].mean())
-
 
     def std(self, target: int) -> float:
         y = torch.cat([self.get(i).y for i in range(len(self))], dim=0)
@@ -53,7 +48,6 @@ class SC(InMemoryDataset):
     @property
     def processed_file_names(self) -> str:
         return "_".join([self.split, self.feature_type]) +'_'+str(self.fold_id)+'.pt'
-    
 
     def process(self):
         data_path ='./conf'
@@ -71,7 +65,7 @@ class SC(InMemoryDataset):
                 cif_id = x.split(',')[0]
                 tc = x.split(',')[1]
                 if cif_id == file_name:
-                    target=[math.log(float(tc))]
+                    target = [math.log(float(tc))]
             y = torch.tensor(target)
             y = y.unsqueeze(0)
          
@@ -83,7 +77,6 @@ class SC(InMemoryDataset):
 
             atom_features = []
             occu_crystal = []
-            #ele_num = 0
             for i in range(len(crystal.sites)):
                 emb = 0
                 total = 0
