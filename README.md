@@ -60,3 +60,4 @@ You can use these `*_save.pt` files for inference with the following commands:
 ```
     sh scripts/infer/infer.sh
 ```
+The results of inference will be saved in `pred.json`
