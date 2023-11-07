@@ -26,7 +26,7 @@ tqdm                  4.65.0
 
 ## Dataset
 
-The dataset is undered `datasets/SuperCon/cif/` and the Tc values are saved in `datasets/SuperCon/df_all_data1202.csv`.
+The dataset is undered `datasets/SuperCon/cif/` and the Tc values are saved in `datasets/SuperCon/df_all_data1202.csv`. More details can be found in datasets/README.
 
 ## Example
 
