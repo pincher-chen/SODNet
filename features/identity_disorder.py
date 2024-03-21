@@ -29,7 +29,7 @@ def classify(dataset):
         stu_type=identity_type(cif_file)
         if stu_type == "order":
             order_data.append(cif_file)
-        if stu_type == "sd" or stu_type == "order":
+        if stu_type == "sd" or stu_type == "pd":
             dis_data.append(cif_file)
     return order_data,dis_data      
 
