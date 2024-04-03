@@ -83,7 +83,7 @@ if __name__ == "__main__":
     elif args.order_type == 'all':
         data_source = data_source
     else:
-        print('please input the currect order_type')
+        print('please input the correct order_type')
 
     fold_num = 10
     fold_id = 1

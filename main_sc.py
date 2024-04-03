@@ -151,7 +151,7 @@ def main(args):
     elif args.order_type == 'all':  
         data_source = data_source
     else:
-        print('please input the currect order_type') 
+        print('please input the correct order_type')
 
     fold_num = 10
     train_idx,valid_idx,test_idx = splitdata(data_source,fold_num,args.run_fold)
