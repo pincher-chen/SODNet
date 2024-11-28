@@ -1,6 +1,6 @@
 # SODNet
 
-A transformer-based GNN model for learning superconductivity from ordered and disordered crystal structures.
+A transformer-based GNN model for learning superconductivity from ordered and disordered crystal structures. Implementation codes for Learning Superconductivity from Ordered and Disordered Material Structure.
 
 ## Requirement
 
