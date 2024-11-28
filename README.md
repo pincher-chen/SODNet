@@ -1,4 +1,4 @@
-# SODNet
+# Learning Superconductivity from Ordered and Disordered Material Structures (NeuIPS 2024)
 
 A transformer-based GNN model for learning superconductivity from ordered and disordered crystal structures. Implementation codes for Learning Superconductivity from Ordered and Disordered Material Structure.  
 [**[Paper]**](https://neurips.cc/virtual/2024/poster/97553)
