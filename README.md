@@ -62,3 +62,15 @@ You can use these `*_save.pt` files for inference with the following commands:
     sh scripts/infer/infer.sh
 ```
 The results of inference will be saved in `pred.json`.
+
+## Citation
+Please consider citing our work if you find it helpful:
+
+```
+@inproceedings{chenlearning,
+  title={Learning Superconductivity from Ordered and Disordered Material Structures},
+  author={Chen, Pin and Peng, Luoxuan and Jiao, Rui and Mo, Qing and Zhen, WANG and Huang, Wenbing and Liu, Yang and Lu, Yutong},
+  booktitle={The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+  year={2024}
+}
+```
