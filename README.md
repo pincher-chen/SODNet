@@ -1,7 +1,7 @@
 # SODNet
 
-A transformer-based GNN model for learning superconductivity from ordered and disordered crystal structures. Implementation codes for Learning Superconductivity from Ordered and Disordered Material Structure.
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/EmperorJia/EquiCSP/blob/main/LICENSE)   [**[Paper]**](https://neurips.cc/virtual/2024/poster/97553)
+A transformer-based GNN model for learning superconductivity from ordered and disordered crystal structures. Implementation codes for Learning Superconductivity from Ordered and Disordered Material Structure.  
+[**[Paper]**](https://neurips.cc/virtual/2024/poster/97553)
 
 ## Requirement
 
